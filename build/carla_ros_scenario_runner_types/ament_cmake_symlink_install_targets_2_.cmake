@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/airlab/ros2_ws/build/carla_ros_scenario_runner_types/rosidl_generator_py/carla_ros_scenario_runner_types/carla_ros_scenario_runner_types_s__rosidl_typesupport_c.so" "TARGETS" "carla_ros_scenario_runner_types_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/carla_ros_scenario_runner_types")

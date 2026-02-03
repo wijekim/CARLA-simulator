@@ -1,1 +1,0 @@
-/home/airlab/ros2_ws/src/carla_lidar_saver/setup.py
