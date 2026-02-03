@@ -1,1 +1,0 @@
-/home/airlab/ros2_ws/src/DynamixelSDK/ros/dynamixel_sdk/include/dynamixel_easy_sdk/dynamixel_easy_sdk.hpp

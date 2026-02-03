@@ -1,2 +1,0 @@
-[console_scripts]
-twist_carla_controller = twist_carla_direct_control.twist_carla_controller:main
