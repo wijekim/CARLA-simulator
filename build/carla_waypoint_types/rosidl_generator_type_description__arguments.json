@@ -1,0 +1,16 @@
+{
+  "package_name": "carla_waypoint_types",
+  "output_dir": "/home/airlab/ros2_ws/build/carla_waypoint_types/rosidl_generator_type_description/carla_waypoint_types",
+  "idl_tuples": [
+    "/home/airlab/ros2_ws/build/carla_waypoint_types/rosidl_adapter/carla_waypoint_types:msg/CarlaWaypoint.idl",
+    "/home/airlab/ros2_ws/build/carla_waypoint_types/rosidl_adapter/carla_waypoint_types:srv/GetWaypoint.idl",
+    "/home/airlab/ros2_ws/build/carla_waypoint_types/rosidl_adapter/carla_waypoint_types:srv/GetActorWaypoint.idl"
+  ],
+  "include_paths": [
+    "nav_msgs:/opt/ros/jazzy/share/nav_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

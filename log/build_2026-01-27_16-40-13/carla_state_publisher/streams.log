@@ -1,0 +1,27 @@
+[0.405s] Invoking command in '/home/airlab/ros2_ws/src/carla_state_publisher': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/airlab/ros2_ws/build/carla_state_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/airlab/ros2_ws/install/carla_state_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/carla_state_publisher build --build-base /home/airlab/ros2_ws/build/carla_state_publisher/build install --record /home/airlab/ros2_ws/build/carla_state_publisher/install.log --single-version-externally-managed install_data
+[0.559s] running egg_info
+[0.569s] writing ../../build/carla_state_publisher/carla_state_publisher.egg-info/PKG-INFO
+[0.569s] writing dependency_links to ../../build/carla_state_publisher/carla_state_publisher.egg-info/dependency_links.txt
+[0.569s] writing entry points to ../../build/carla_state_publisher/carla_state_publisher.egg-info/entry_points.txt
+[0.569s] writing requirements to ../../build/carla_state_publisher/carla_state_publisher.egg-info/requires.txt
+[0.569s] writing top-level names to ../../build/carla_state_publisher/carla_state_publisher.egg-info/top_level.txt
+[0.590s] reading manifest file '../../build/carla_state_publisher/carla_state_publisher.egg-info/SOURCES.txt'
+[0.591s] writing manifest file '../../build/carla_state_publisher/carla_state_publisher.egg-info/SOURCES.txt'
+[0.591s] running build
+[0.591s] running build_py
+[0.591s] copying carla_state_publisher/__init__.py -> /home/airlab/ros2_ws/build/carla_state_publisher/build/lib/carla_state_publisher
+[0.591s] copying carla_state_publisher/publisher_node.py -> /home/airlab/ros2_ws/build/carla_state_publisher/build/lib/carla_state_publisher
+[0.591s] running install
+[0.594s] running install_lib
+[0.605s] copying /home/airlab/ros2_ws/build/carla_state_publisher/build/lib/carla_state_publisher/publisher_node.py -> /home/airlab/ros2_ws/install/carla_state_publisher/lib/python3.12/site-packages/carla_state_publisher
+[0.605s] byte-compiling /home/airlab/ros2_ws/install/carla_state_publisher/lib/python3.12/site-packages/carla_state_publisher/publisher_node.py to publisher_node.cpython-312.pyc
+[0.606s] running install_data
+[0.606s] copying resource/carla_state_publisher -> /home/airlab/ros2_ws/install/carla_state_publisher/share/ament_index/resource_index/packages
+[0.606s] copying package.xml -> /home/airlab/ros2_ws/install/carla_state_publisher/share/carla_state_publisher
+[0.606s] running install_egg_info
+[0.617s] removing '/home/airlab/ros2_ws/install/carla_state_publisher/lib/python3.12/site-packages/carla_state_publisher-0.0.0-py3.12.egg-info' (and everything under it)
+[0.617s] Copying ../../build/carla_state_publisher/carla_state_publisher.egg-info to /home/airlab/ros2_ws/install/carla_state_publisher/lib/python3.12/site-packages/carla_state_publisher-0.0.0-py3.12.egg-info
+[0.617s] running install_scripts
+[0.641s] Installing publisher_node script to /home/airlab/ros2_ws/install/carla_state_publisher/lib/carla_state_publisher
+[0.641s] writing list of installed files to '/home/airlab/ros2_ws/build/carla_state_publisher/install.log'
+[0.652s] Invoked command in '/home/airlab/ros2_ws/src/carla_state_publisher' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/airlab/ros2_ws/build/carla_state_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/airlab/ros2_ws/install/carla_state_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/carla_state_publisher build --build-base /home/airlab/ros2_ws/build/carla_state_publisher/build install --record /home/airlab/ros2_ws/build/carla_state_publisher/install.log --single-version-externally-managed install_data

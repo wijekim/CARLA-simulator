@@ -1,0 +1,60 @@
+[0.261s] Invoking command in '/home/airlab/ros2_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/airlab/ros2_ws/install/carla_lidar_saver:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/airlab/ros2_ws/src/DynamixelSDK/ros/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/airlab/ros2_ws/install/dynamixel_sdk
+[0.903s] -- The C compiler identification is GNU 13.3.0
+[0.903s] -- The CXX compiler identification is GNU 13.3.0
+[0.903s] -- Detecting C compiler ABI info
+[0.903s] -- Detecting C compiler ABI info - done
+[0.903s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.903s] -- Detecting C compile features
+[0.903s] -- Detecting C compile features - done
+[0.903s] -- Detecting CXX compiler ABI info
+[0.903s] -- Detecting CXX compiler ABI info - done
+[0.903s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.903s] -- Detecting CXX compile features
+[0.903s] -- Detecting CXX compile features - done
+[0.904s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.904s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.904s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.904s] -- Configuring done (0.5s)
+[0.904s] -- Generating done (0.0s)
+[0.904s] -- Build files have been written to: /home/airlab/ros2_ws/build/dynamixel_sdk
+[0.910s] Invoked command in '/home/airlab/ros2_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/airlab/ros2_ws/install/carla_lidar_saver:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/airlab/ros2_ws/src/DynamixelSDK/ros/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/airlab/ros2_ws/install/dynamixel_sdk
+[0.910s] Invoking command in '/home/airlab/ros2_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/airlab/ros2_ws/install/carla_lidar_saver:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/airlab/ros2_ws/build/dynamixel_sdk -- -j32 -l32
+[0.946s] [  5%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o[0m
+[0.946s] [ 16%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o[0m
+[0.946s] [ 27%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_fast_bulk_read.cpp.o[0m
+[0.946s] [ 16%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o[0m
+[0.946s] [ 27%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o[0m
+[0.946s] [ 33%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_fast_sync_read.cpp.o[0m
+[0.947s] [ 38%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/dynamixel_error.cpp.o[0m
+[0.947s] [ 44%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o[0m
+[0.947s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/group_executor.cpp.o[0m
+[0.947s] [ 61%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o[0m
+[0.947s] [ 61%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o[0m
+[0.948s] [ 77%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/connector.cpp.o[0m
+[0.948s] [ 77%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_handler.cpp.o[0m
+[0.948s] [ 83%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o[0m
+[0.948s] [ 77%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o[0m
+[0.948s] [ 88%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/control_table.cpp.o[0m
+[0.948s] [ 88%] Built target ament_cmake_python_symlink_dynamixel_easy_sdk
+[0.952s] [ 94%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/motor.cpp.o[0m
+[0.952s] [ 94%] Built target ament_cmake_python_symlink_dynamixel_sdk
+[1.131s] running egg_info
+[1.146s] creating dynamixel_easy_sdk.egg-info
+[1.146s] writing dynamixel_easy_sdk.egg-info/PKG-INFO
+[1.146s] writing dependency_links to dynamixel_easy_sdk.egg-info/dependency_links.txt
+[1.146s] writing top-level names to dynamixel_easy_sdk.egg-info/top_level.txt
+[1.146s] writing manifest file 'dynamixel_easy_sdk.egg-info/SOURCES.txt'
+[1.178s] running egg_info
+[1.199s] creating dynamixel_sdk.egg-info
+[1.199s] writing dynamixel_sdk.egg-info/PKG-INFO
+[1.199s] writing dependency_links to dynamixel_sdk.egg-info/dependency_links.txt
+[1.200s] writing top-level names to dynamixel_sdk.egg-info/top_level.txt
+[1.200s] writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[1.203s] reading manifest file 'dynamixel_easy_sdk.egg-info/SOURCES.txt'
+[1.204s] writing manifest file 'dynamixel_easy_sdk.egg-info/SOURCES.txt'
+[1.237s] [ 94%] Built target ament_cmake_python_build_dynamixel_easy_sdk_egg
+[1.262s] reading manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[1.263s] writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[1.294s] [ 94%] Built target ament_cmake_python_build_dynamixel_sdk_egg
+[1.647s] [100%] [32m[1mLinking CXX shared library libdynamixel_sdk.so[0m
+[1.703s] [100%] Built target dynamixel_sdk

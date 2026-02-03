@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/airlab/ros2_ws/build/dynamixel_workbench_msgs/rosidl_generator_py/dynamixel_workbench_msgs/dynamixel_workbench_msgs_s__rosidl_typesupport_introspection_c.so" "TARGETS" "dynamixel_workbench_msgs_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/dynamixel_workbench_msgs")

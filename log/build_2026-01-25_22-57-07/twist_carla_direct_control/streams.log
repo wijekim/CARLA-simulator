@@ -1,0 +1,40 @@
+[1.346s] Invoking command in '/home/airlab/ros2_ws/build/twist_carla_direct_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/airlab/ros2_ws/build/twist_carla_direct_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/airlab/ros2_ws/install/twist_carla_direct_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/airlab/ros2_ws/build/twist_carla_direct_control/build --no-deps symlink_data
+[1.470s] /home/airlab/carla/carla_venv/lib/python3.12/site-packages/setuptools/dist.py:599: SetuptoolsDeprecationWarning: Invalid dash-separated key 'script-dir' in 'develop' (setup.cfg), please use the underscore name 'script_dir' instead.
+[1.470s] !!
+[1.470s] 
+[1.470s]         ********************************************************************************
+[1.470s]         Usage of dash-separated 'script-dir' will not be supported in future
+[1.471s]         versions. Please use the underscore name 'script_dir' instead.
+[1.471s] 
+[1.471s]         By 2026-Mar-03, you need to update your project and remove deprecated calls
+[1.471s]         or your builds will no longer be supported.
+[1.471s] 
+[1.471s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[1.471s]         ********************************************************************************
+[1.471s] 
+[1.471s] !!
+[1.471s]   opt = self._enforce_underscore(opt, section)
+[1.482s] /home/airlab/carla/carla_venv/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.482s]   warnings.warn(msg)
+[1.503s] /home/airlab/carla/carla_venv/lib/python3.12/site-packages/setuptools/dist.py:599: SetuptoolsDeprecationWarning: Invalid dash-separated key 'script-dir' in 'develop' (setup.cfg), please use the underscore name 'script_dir' instead.
+[1.503s] !!
+[1.503s] 
+[1.503s]         ********************************************************************************
+[1.503s]         Usage of dash-separated 'script-dir' will not be supported in future
+[1.503s]         versions. Please use the underscore name 'script_dir' instead.
+[1.504s]         (Affected: twist_carla_direct_control).
+[1.504s] 
+[1.504s]         By 2026-Mar-03, you need to update your project and remove deprecated calls
+[1.504s]         or your builds will no longer be supported.
+[1.504s] 
+[1.504s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[1.504s]         ********************************************************************************
+[1.504s] 
+[1.504s] !!
+[1.504s]   opt = self._enforce_underscore(opt, section)
+[1.513s] usage: setup.py [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]
+[1.513s]    or: setup.py --help [cmd1 cmd2 ...]
+[1.513s]    or: setup.py --help-commands
+[1.513s]    or: setup.py cmd --help
+[1.513s] 
+[1.513s] error: option --editable not recognized

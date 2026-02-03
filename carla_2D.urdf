@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<robot name="hero">
+  <link name="hero" />
+
+  <link name="imu" />
+  <joint name="hero_to_imu" type="fixed">
+    <parent link="hero"/>
+    <child link="imu"/>
+    <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+  </joint>
+
+  <link name="lidar" />
+  <joint name="hero_to_lidar" type="fixed">
+    <parent link="hero"/>
+    <child link="lidar"/>
+    <origin xyz="0.0 0.0 2.4" rpy="0 0 0"/>
+  </joint>
+
+  <link name="camera_link" />
+  <joint name="hero_to_camera" type="fixed">
+    <parent link="hero"/>
+    <child link="camera_link"/>
+    <origin xyz="2.0 0.0 3.0" rpy="0 0 0"/>
+  </joint>
+</robot>

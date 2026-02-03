@@ -1,0 +1,53 @@
+[0.031s] Invoking command in '/home/airlab/ros2_ws/build/carla_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/airlab/ros2_ws/install/carla_lidar_saver:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/airlab/ros2_ws/src/ros-carla-msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/airlab/ros2_ws/install/carla_msgs
+[0.908s] -- The C compiler identification is GNU 13.3.0
+[0.908s] -- The CXX compiler identification is GNU 13.3.0
+[0.908s] -- Detecting C compiler ABI info
+[0.908s] -- Detecting C compiler ABI info - done
+[0.908s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.908s] -- Detecting C compile features
+[0.908s] -- Detecting C compile features - done
+[0.908s] -- Detecting CXX compiler ABI info
+[0.908s] -- Detecting CXX compiler ABI info - done
+[0.908s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.908s] -- Detecting CXX compile features
+[0.908s] -- Detecting CXX compile features - done
+[0.908s] -- Found ros_environment: 4.2.1 (/opt/ros/jazzy/share/ros_environment/cmake)
+[0.908s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.908s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.909s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.909s] -- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.909s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.909s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.909s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.909s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.909s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.909s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.909s] -- Found diagnostic_msgs: 5.3.6 (/opt/ros/jazzy/share/diagnostic_msgs/cmake)
+[0.909s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.909s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.909s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.909s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.909s]   CMake.
+[0.909s] 
+[0.909s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.909s]   CMake that the project does not need compatibility with older versions.
+[0.909s] 
+[0.909s] [0m
+[1.007s] -- Found ament_cmake_cppcheck: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[1.008s] -- Found ament_cmake_cpplint: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[1.010s] -- Found ament_cmake_uncrustify: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[1.013s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.672s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.892s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.895s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.981s] -- Found PythonExtra: /usr/bin/python3  
+[2.460s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.532s] -- Found ament_cmake_flake8: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[2.535s] -- Found ament_cmake_pep257: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[2.558s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.596s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.598s] -- Added test 'lint_cmake' to check CMake code style
+[2.598s] -- Added test 'xmllint' to check XML markup files
+[2.601s] -- Configuring done (2.6s)
+[2.657s] -- Generating done (0.0s)
+[2.665s] -- Build files have been written to: /home/airlab/ros2_ws/build/carla_msgs

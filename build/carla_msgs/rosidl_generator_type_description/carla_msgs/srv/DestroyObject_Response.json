@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "carla_msgs/srv/DestroyObject_Response",
+      "fields": [
+        {
+          "name": "success",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "carla_msgs/srv/DestroyObject_Response",
+      "hash_string": "RIHS01_1924973c41daf14a0fe4cc3e58e11d4613b6bc29baf2fd00b6b02cb22b8e8f46"
+    }
+  ]
+}

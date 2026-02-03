@@ -1,0 +1,1040 @@
+[0.000000] (-) TimerEvent: {}
+[0.000250] (-) JobUnselected: {'identifier': 'camera'}
+[0.000277] (-) JobUnselected: {'identifier': 'carla_ackermann_control'}
+[0.000368] (-) JobUnselected: {'identifier': 'carla_ackermann_msgs'}
+[0.000395] (-) JobUnselected: {'identifier': 'carla_ad_agent'}
+[0.000439] (-) JobUnselected: {'identifier': 'carla_ad_demo'}
+[0.000453] (-) JobUnselected: {'identifier': 'carla_common'}
+[0.000483] (-) JobUnselected: {'identifier': 'carla_lidar_saver'}
+[0.000498] (-) JobUnselected: {'identifier': 'carla_manual_control'}
+[0.000510] (-) JobUnselected: {'identifier': 'carla_ros_bridge'}
+[0.000523] (-) JobUnselected: {'identifier': 'carla_ros_scenario_runner'}
+[0.000563] (-) JobUnselected: {'identifier': 'carla_ros_scenario_runner_types'}
+[0.000577] (-) JobUnselected: {'identifier': 'carla_spawn_objects'}
+[0.000602] (-) JobUnselected: {'identifier': 'carla_twist_launch'}
+[0.000616] (-) JobUnselected: {'identifier': 'carla_twist_to_control'}
+[0.000640] (-) JobUnselected: {'identifier': 'carla_walker_agent'}
+[0.000658] (-) JobUnselected: {'identifier': 'carla_waypoint_publisher'}
+[0.000684] (-) JobUnselected: {'identifier': 'carla_waypoint_types'}
+[0.000702] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000716] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000752] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.000766] (-) JobUnselected: {'identifier': 'dynamixel_workbench_msgs'}
+[0.000777] (-) JobUnselected: {'identifier': 'dynamixel_workbench_operators'}
+[0.000789] (-) JobUnselected: {'identifier': 'lidar_cv_visualizer'}
+[0.000872] (-) JobUnselected: {'identifier': 'open3d_ros2_node'}
+[0.000894] (-) JobUnselected: {'identifier': 'pcl_recorder'}
+[0.000928] (-) JobUnselected: {'identifier': 'ros_compatibility'}
+[0.000955] (-) JobUnselected: {'identifier': 'rqt_carla_control'}
+[0.000974] (-) JobUnselected: {'identifier': 'rviz_carla_plugin'}
+[0.000986] (-) JobUnselected: {'identifier': 'twist_carla_direct_control'}
+[0.001006] (carla_msgs) JobQueued: {'identifier': 'carla_msgs', 'dependencies': OrderedDict()}
+[0.001024] (twist_to_carla_control) JobQueued: {'identifier': 'twist_to_carla_control', 'dependencies': OrderedDict({'carla_msgs': '/home/airlab/ros2_ws/install/carla_msgs'})}
+[0.001042] (carla_msgs) JobStarted: {'identifier': 'carla_msgs'}
+[0.004103] (carla_msgs) JobProgress: {'identifier': 'carla_msgs', 'progress': 'cmake'}
+[0.004425] (carla_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/airlab/ros2_ws/src/ros-carla-msgs', '-DCMAKE_INSTALL_PREFIX=/home/airlab/ros2_ws/install/carla_msgs'], 'cwd': '/home/airlab/ros2_ws/build/carla_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'airlab', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/airlab/ros2_ws/install/dynamixel_sdk/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/airlab', 'DESKTOP_SESSION': 'ubuntu-wayland', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '3012', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/airlab/ros2_ws', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/airlab/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'airlab', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'airlab', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/airlab/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/airlab/.local/bin:/home/airlab/.local/bin', 'SESSION_MANAGER': 'local/airlab:@/tmp/.ICE-unix/2988,unix/airlab:/tmp/.ICE-unix/2988', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/home/airlab/carla/PythonAPI/examples/ros2/config/fastrtps-profile.xml', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/02bdf7ed_b4d1_4f07_9434_a2be89c62013', 'GNOME_SETUP_DISPLAY': ':2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-wayland', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JWQPJ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.111', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/airlab/ros2_ws/install/dynamixel_workbench_operators:/home/airlab/ros2_ws/install/dynamixel_sdk:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-wayland', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/airlab/ros2_ws/build/carla_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-wayland:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/airlab/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/airlab/carla/carla_venv/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/airlab/ros2_ws/install/dynamixel_workbench_operators:/home/airlab/ros2_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.011639] (carla_msgs) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.011770] (carla_msgs) StderrLine: {'line': b'  Compatibility with CMake < 3.5 will be removed from a future version of\n'}
+[0.011803] (carla_msgs) StderrLine: {'line': b'  CMake.\n'}
+[0.011830] (carla_msgs) StderrLine: {'line': b'\n'}
+[0.011856] (carla_msgs) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.011881] (carla_msgs) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.011907] (carla_msgs) StderrLine: {'line': b'\n'}
+[0.011932] (carla_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.014498] (carla_msgs) StdoutLine: {'line': b'-- Found ros_environment: 4.2.1 (/opt/ros/jazzy/share/ros_environment/cmake)\n'}
+[0.014614] (carla_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.033281] (carla_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.081143] (carla_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.087110] (carla_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)\n'}
+[0.099586] (-) TimerEvent: {}
+[0.103642] (carla_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.108053] (carla_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.113514] (carla_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.119874] (carla_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.126100] (carla_msgs) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.135034] (carla_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.142540] (carla_msgs) StdoutLine: {'line': b'-- Found diagnostic_msgs: 5.3.6 (/opt/ros/jazzy/share/diagnostic_msgs/cmake)\n'}
+[0.167105] (carla_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.172066] (carla_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.199665] (-) TimerEvent: {}
+[0.299833] (-) TimerEvent: {}
+[0.400004] (-) TimerEvent: {}
+[0.421002] (carla_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)\n'}
+[0.421539] (carla_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)\n'}
+[0.422089] (carla_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)\n'}
+[0.422834] (carla_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[0.500089] (-) TimerEvent: {}
+[0.600264] (-) TimerEvent: {}
+[0.606455] (carla_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.684129] (carla_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.686178] (carla_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[0.700350] (-) TimerEvent: {}
+[0.800581] (-) TimerEvent: {}
+[0.901580] (-) TimerEvent: {}
+[0.943566] (carla_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[0.969138] (carla_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)\n'}
+[0.969649] (carla_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)\n'}
+[0.972962] (carla_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.979857] (carla_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.980237] (carla_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.980484] (carla_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.981625] (carla_msgs) StdoutLine: {'line': b'-- Configuring done (1.0s)\n'}
+[1.001656] (-) TimerEvent: {}
+[1.021442] (carla_msgs) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.028693] (carla_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/airlab/ros2_ws/build/carla_msgs\n'}
+[1.034067] (carla_msgs) CommandEnded: {'returncode': 0}
+[1.034321] (carla_msgs) JobProgress: {'identifier': 'carla_msgs', 'progress': 'build'}
+[1.034591] (carla_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/airlab/ros2_ws/build/carla_msgs', '--', '-j32', '-l32'], 'cwd': '/home/airlab/ros2_ws/build/carla_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'airlab', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/airlab/ros2_ws/install/dynamixel_sdk/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/airlab', 'DESKTOP_SESSION': 'ubuntu-wayland', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '3012', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/airlab/ros2_ws', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/airlab/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'airlab', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'airlab', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/airlab/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/airlab/.local/bin:/home/airlab/.local/bin', 'SESSION_MANAGER': 'local/airlab:@/tmp/.ICE-unix/2988,unix/airlab:/tmp/.ICE-unix/2988', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/home/airlab/carla/PythonAPI/examples/ros2/config/fastrtps-profile.xml', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/02bdf7ed_b4d1_4f07_9434_a2be89c62013', 'GNOME_SETUP_DISPLAY': ':2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-wayland', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JWQPJ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.111', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/airlab/ros2_ws/install/dynamixel_workbench_operators:/home/airlab/ros2_ws/install/dynamixel_sdk:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-wayland', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/airlab/ros2_ws/build/carla_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-wayland:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/airlab/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/airlab/carla/carla_venv/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/airlab/ros2_ws/install/dynamixel_workbench_operators:/home/airlab/ros2_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.087880] (carla_msgs) StdoutLine: {'line': b'[  0%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[1.097018] (carla_msgs) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_symlink_carla_msgs\n'}
+[1.101722] (-) TimerEvent: {}
+[1.201872] (-) TimerEvent: {}
+[1.214818] (carla_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.223979] (carla_msgs) StdoutLine: {'line': b'creating carla_msgs.egg-info\n'}
+[1.224043] (carla_msgs) StdoutLine: {'line': b'writing carla_msgs.egg-info/PKG-INFO\n'}
+[1.224203] (carla_msgs) StdoutLine: {'line': b'writing dependency_links to carla_msgs.egg-info/dependency_links.txt\n'}
+[1.224306] (carla_msgs) StdoutLine: {'line': b'writing top-level names to carla_msgs.egg-info/top_level.txt\n'}
+[1.224363] (carla_msgs) StdoutLine: {'line': b"writing manifest file 'carla_msgs.egg-info/SOURCES.txt'\n"}
+[1.254760] (carla_msgs) StdoutLine: {'line': b"reading manifest file 'carla_msgs.egg-info/SOURCES.txt'\n"}
+[1.255151] (carla_msgs) StdoutLine: {'line': b"writing manifest file 'carla_msgs.egg-info/SOURCES.txt'\n"}
+[1.269812] (carla_msgs) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_build_carla_msgs_egg\n'}
+[1.301948] (-) TimerEvent: {}
+[1.402117] (-) TimerEvent: {}
+[1.468591] (carla_msgs) StdoutLine: {'line': b'[  0%] Built target carla_msgs__rosidl_generator_type_description\n'}
+[1.476508] (carla_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.481482] (carla_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.502185] (-) TimerEvent: {}
+[1.602333] (-) TimerEvent: {}
+[1.702492] (-) TimerEvent: {}
+[1.802683] (-) TimerEvent: {}
+[1.902841] (-) TimerEvent: {}
+[2.003009] (-) TimerEvent: {}
+[2.103168] (-) TimerEvent: {}
+[2.191349] (carla_msgs) StdoutLine: {'line': b'[  1%] Built target carla_msgs__cpp\n'}
+[2.203191] (-) TimerEvent: {}
+[2.303361] (-) TimerEvent: {}
+[2.335494] (carla_msgs) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_bounding_box__description.c.o\x1b[0m\n'}
+[2.338623] (carla_msgs) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_ego_vehicle_info_wheel__description.c.o\x1b[0m\n'}
+[2.338848] (carla_msgs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_ego_vehicle_info_wheel__type_support.c.o\x1b[0m\n'}
+[2.339088] (carla_msgs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_ego_vehicle_info__functions.c.o\x1b[0m\n'}
+[2.339243] (carla_msgs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_ego_vehicle_info__description.c.o\x1b[0m\n'}
+[2.339399] (carla_msgs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_ego_vehicle_control__functions.c.o\x1b[0m\n'}
+[2.339506] (carla_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_bounding_box__type_support.c.o\x1b[0m\n'}
+[2.339635] (carla_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_bounding_box__functions.c.o\x1b[0m\n'}
+[2.339792] (carla_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_ego_vehicle_control__description.c.o\x1b[0m\n'}
+[2.339897] (carla_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_collision_event__description.c.o\x1b[0m\n'}
+[2.340099] (carla_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_ego_vehicle_control__type_support.c.o\x1b[0m\n'}
+[2.340287] (carla_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_ego_vehicle_status__description.c.o\x1b[0m\n'}
+[2.340584] (carla_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_ego_vehicle_status__type_support.c.o\x1b[0m\n'}
+[2.340770] (carla_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_ego_vehicle_status__functions.c.o\x1b[0m\n'}
+[2.340895] (carla_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_ego_vehicle_info_wheel__functions.c.o\x1b[0m\n'}
+[2.341002] (carla_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_ego_vehicle_info__type_support.c.o\x1b[0m\n'}
+[2.341121] (carla_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_lane_invasion_event__description.c.o\x1b[0m\n'}
+[2.341228] (carla_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_collision_event__functions.c.o\x1b[0m\n'}
+[2.341328] (carla_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_collision_event__type_support.c.o\x1b[0m\n'}
+[2.341443] (carla_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_lane_invasion_event__type_support.c.o\x1b[0m\n'}
+[2.341624] (carla_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_world_info__description.c.o\x1b[0m\n'}
+[2.341743] (carla_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_lane_invasion_event__functions.c.o\x1b[0m\n'}
+[2.341875] (carla_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_actor_info__functions.c.o\x1b[0m\n'}
+[2.341976] (carla_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_world_info__functions.c.o\x1b[0m\n'}
+[2.342139] (carla_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_actor_info__description.c.o\x1b[0m\n'}
+[2.342265] (carla_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_actor_info__type_support.c.o\x1b[0m\n'}
+[2.342326] (carla_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_actor_list__functions.c.o\x1b[0m\n'}
+[2.342439] (carla_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_control__description.c.o\x1b[0m\n'}
+[2.342606] (carla_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_actor_list__description.c.o\x1b[0m\n'}
+[2.342822] (carla_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_world_info__type_support.c.o\x1b[0m\n'}
+[2.344074] (carla_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_control__functions.c.o\x1b[0m\n'}
+[2.345587] (carla_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_actor_list__type_support.c.o\x1b[0m\n'}
+[2.376809] (carla_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_traffic_light_info__functions.c.o\x1b[0m\n'}
+[2.377044] (carla_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_status__description.c.o\x1b[0m\n'}
+[2.377122] (carla_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_status__functions.c.o\x1b[0m\n'}
+[2.377196] (carla_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_control__type_support.c.o\x1b[0m\n'}
+[2.377257] (carla_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_traffic_light_info__description.c.o\x1b[0m\n'}
+[2.377343] (carla_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_traffic_light_info__type_support.c.o\x1b[0m\n'}
+[2.377913] (carla_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_traffic_light_info_list__description.c.o\x1b[0m\n'}
+[2.378167] (carla_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_status__type_support.c.o\x1b[0m\n'}
+[2.381243] (carla_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_traffic_light_info_list__functions.c.o\x1b[0m\n'}
+[2.386842] (carla_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_traffic_light_status__description.c.o\x1b[0m\n'}
+[2.386991] (carla_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_traffic_light_info_list__type_support.c.o\x1b[0m\n'}
+[2.387040] (carla_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_traffic_light_status_list__description.c.o\x1b[0m\n'}
+[2.387089] (carla_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_traffic_light_status_list__functions.c.o\x1b[0m\n'}
+[2.387131] (carla_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_traffic_light_status__type_support.c.o\x1b[0m\n'}
+[2.387174] (carla_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_traffic_light_status__functions.c.o\x1b[0m\n'}
+[2.387216] (carla_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_walker_control__description.c.o\x1b[0m\n'}
+[2.387260] (carla_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_walker_control__functions.c.o\x1b[0m\n'}
+[2.387310] (carla_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_weather_parameters__description.c.o\x1b[0m\n'}
+[2.390885] (carla_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_traffic_light_status_list__type_support.c.o\x1b[0m\n'}
+[2.391728] (carla_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_weather_parameters__functions.c.o\x1b[0m\n'}
+[2.391802] (carla_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_walker_control__type_support.c.o\x1b[0m\n'}
+[2.391852] (carla_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/msg/detail/carla_weather_parameters__type_support.c.o\x1b[0m\n'}
+[2.392344] (carla_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/srv/detail/spawn_object__type_support.c.o\x1b[0m\n'}
+[2.392530] (carla_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/srv/detail/spawn_object__functions.c.o\x1b[0m\n'}
+[2.393084] (carla_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/srv/detail/spawn_object__description.c.o\x1b[0m\n'}
+[2.394195] (carla_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/srv/detail/destroy_object__description.c.o\x1b[0m\n'}
+[2.394539] (carla_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/srv/detail/destroy_object__functions.c.o\x1b[0m\n'}
+[2.395105] (carla_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/srv/detail/destroy_object__type_support.c.o\x1b[0m\n'}
+[2.399285] (carla_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/srv/detail/get_blueprints__functions.c.o\x1b[0m\n'}
+[2.399583] (carla_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/srv/detail/get_blueprints__description.c.o\x1b[0m\n'}
+[2.400363] (carla_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_c.dir/rosidl_generator_c/carla_msgs/srv/detail/get_blueprints__type_support.c.o\x1b[0m\n'}
+[2.403448] (-) TimerEvent: {}
+[2.442981] (carla_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32m\x1b[1mLinking C shared library libcarla_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[2.476539] (carla_msgs) StdoutLine: {'line': b'[ 28%] Built target carla_msgs__rosidl_generator_c\n'}
+[2.484205] (carla_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.484342] (carla_msgs) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.484379] (carla_msgs) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.484410] (carla_msgs) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.484440] (carla_msgs) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.484519] (carla_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.503524] (-) TimerEvent: {}
+[2.603703] (-) TimerEvent: {}
+[2.703940] (-) TimerEvent: {}
+[2.804109] (-) TimerEvent: {}
+[2.904581] (-) TimerEvent: {}
+[2.967382] (carla_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_ego_vehicle_info__type_support.cpp.o\x1b[0m\n'}
+[2.967557] (carla_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_control__type_support.cpp.o\x1b[0m\n'}
+[2.967628] (carla_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_lane_invasion_event__type_support.cpp.o\x1b[0m\n'}
+[2.967939] (carla_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_actor_info__type_support.cpp.o\x1b[0m\n'}
+[2.968038] (carla_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_bounding_box__type_support.cpp.o\x1b[0m\n'}
+[2.968226] (carla_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_traffic_light_info_list__type_support.cpp.o\x1b[0m\n'}
+[2.968361] (carla_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_ego_vehicle_control__type_support.cpp.o\x1b[0m\n'}
+[2.968476] (carla_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_world_info__type_support.cpp.o\x1b[0m\n'}
+[2.968553] (carla_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_ego_vehicle_status__type_support.cpp.o\x1b[0m\n'}
+[2.968717] (carla_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_collision_event__type_support.cpp.o\x1b[0m\n'}
+[2.968927] (carla_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_ego_vehicle_info_wheel__type_support.cpp.o\x1b[0m\n'}
+[2.969393] (carla_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_actor_list__type_support.cpp.o\x1b[0m\n'}
+[2.969572] (carla_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_traffic_light_status__type_support.cpp.o\x1b[0m\n'}
+[2.969747] (carla_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/srv/spawn_object__type_support.cpp.o\x1b[0m\n'}
+[2.969834] (carla_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_status__type_support.cpp.o\x1b[0m\n'}
+[2.969950] (carla_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_traffic_light_info__type_support.cpp.o\x1b[0m\n'}
+[2.970415] (carla_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/srv/get_blueprints__type_support.cpp.o\x1b[0m\n'}
+[2.970565] (carla_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_walker_control__type_support.cpp.o\x1b[0m\n'}
+[2.970648] (carla_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_traffic_light_status_list__type_support.cpp.o\x1b[0m\n'}
+[2.971022] (carla_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/msg/carla_weather_parameters__type_support.cpp.o\x1b[0m\n'}
+[2.971141] (carla_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/carla_msgs/srv/destroy_object__type_support.cpp.o\x1b[0m\n'}
+[2.975341] (carla_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_ego_vehicle_info__type_support.cpp.o\x1b[0m\n'}
+[2.975484] (carla_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_collision_event__type_support.cpp.o\x1b[0m\n'}
+[2.975545] (carla_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_ego_vehicle_status__type_support.cpp.o\x1b[0m\n'}
+[2.975604] (carla_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_ego_vehicle_info_wheel__type_support.cpp.o\x1b[0m\n'}
+[2.975681] (carla_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_bounding_box__type_support.cpp.o\x1b[0m\n'}
+[2.976359] (carla_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_ego_vehicle_control__type_support.cpp.o\x1b[0m\n'}
+[2.976659] (carla_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_lane_invasion_event__type_support.cpp.o\x1b[0m\n'}
+[3.004713] (-) TimerEvent: {}
+[3.010857] (carla_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_actor_list__type_support.cpp.o\x1b[0m\n'}
+[3.013576] (carla_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_control__type_support.cpp.o\x1b[0m\n'}
+[3.013710] (carla_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_actor_info__type_support.cpp.o\x1b[0m\n'}
+[3.014271] (carla_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_status__type_support.cpp.o\x1b[0m\n'}
+[3.017322] (carla_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_world_info__type_support.cpp.o\x1b[0m\n'}
+[3.019199] (carla_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_traffic_light_info__type_support.cpp.o\x1b[0m\n'}
+[3.022695] (carla_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_traffic_light_info_list__type_support.cpp.o\x1b[0m\n'}
+[3.043441] (carla_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_traffic_light_status__type_support.cpp.o\x1b[0m\n'}
+[3.048657] (carla_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_traffic_light_status_list__type_support.cpp.o\x1b[0m\n'}
+[3.048818] (carla_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_walker_control__type_support.cpp.o\x1b[0m\n'}
+[3.051286] (carla_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/msg/carla_weather_parameters__type_support.cpp.o\x1b[0m\n'}
+[3.053578] (carla_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/srv/spawn_object__type_support.cpp.o\x1b[0m\n'}
+[3.055386] (carla_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/srv/destroy_object__type_support.cpp.o\x1b[0m\n'}
+[3.068773] (carla_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/carla_msgs/srv/get_blueprints__type_support.cpp.o\x1b[0m\n'}
+[3.104624] (carla_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libcarla_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.105054] (-) TimerEvent: {}
+[3.135479] (carla_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_ego_vehicle_status__type_support.c.o\x1b[0m\n'}
+[3.136586] (carla_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_bounding_box__type_support.c.o\x1b[0m\n'}
+[3.139332] (carla_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_ego_vehicle_control__type_support.c.o\x1b[0m\n'}
+[3.139992] (carla_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_collision_event__type_support.c.o\x1b[0m\n'}
+[3.142580] (carla_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_lane_invasion_event__type_support.c.o\x1b[0m\n'}
+[3.142738] (carla_msgs) StdoutLine: {'line': b'[ 52%] Built target carla_msgs__rosidl_typesupport_c\n'}
+[3.145435] (carla_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_ego_vehicle_info__type_support.c.o\x1b[0m\n'}
+[3.147728] (carla_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_ego_vehicle_info_wheel__type_support.c.o\x1b[0m\n'}
+[3.153725] (carla_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_world_info__type_support.c.o\x1b[0m\n'}
+[3.174329] (carla_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_actor_info__type_support.c.o\x1b[0m\n'}
+[3.174521] (carla_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_control__type_support.c.o\x1b[0m\n'}
+[3.176968] (carla_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_actor_list__type_support.c.o\x1b[0m\n'}
+[3.177918] (carla_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_status__type_support.c.o\x1b[0m\n'}
+[3.179717] (carla_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_traffic_light_info__type_support.c.o\x1b[0m\n'}
+[3.183932] (carla_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_traffic_light_status__type_support.c.o\x1b[0m\n'}
+[3.186784] (carla_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_traffic_light_info_list__type_support.c.o\x1b[0m\n'}
+[3.186965] (carla_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_traffic_light_status_list__type_support.c.o\x1b[0m\n'}
+[3.187043] (carla_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_walker_control__type_support.c.o\x1b[0m\n'}
+[3.195363] (carla_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/srv/detail/spawn_object__type_support.c.o\x1b[0m\n'}
+[3.199280] (carla_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/msg/detail/carla_weather_parameters__type_support.c.o\x1b[0m\n'}
+[3.200924] (carla_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/srv/detail/destroy_object__type_support.c.o\x1b[0m\n'}
+[3.201835] (carla_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/carla_msgs/srv/detail/get_blueprints__type_support.c.o\x1b[0m\n'}
+[3.205151] (-) TimerEvent: {}
+[3.237189] (carla_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking C shared library libcarla_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.250538] (carla_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_actor_list__type_support.cpp.o\x1b[0m\n'}
+[3.250720] (carla_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_status__type_support.cpp.o\x1b[0m\n'}
+[3.250805] (carla_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_bounding_box__type_support.cpp.o\x1b[0m\n'}
+[3.250855] (carla_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_ego_vehicle_control__type_support.cpp.o\x1b[0m\n'}
+[3.250931] (carla_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_ego_vehicle_info_wheel__type_support.cpp.o\x1b[0m\n'}
+[3.251073] (carla_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_world_info__type_support.cpp.o\x1b[0m\n'}
+[3.251182] (carla_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_ego_vehicle_info__type_support.cpp.o\x1b[0m\n'}
+[3.251290] (carla_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_ego_vehicle_status__type_support.cpp.o\x1b[0m\n'}
+[3.252093] (carla_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_collision_event__type_support.cpp.o\x1b[0m\n'}
+[3.252204] (carla_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_lane_invasion_event__type_support.cpp.o\x1b[0m\n'}
+[3.252264] (carla_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_traffic_light_status__type_support.cpp.o\x1b[0m\n'}
+[3.252335] (carla_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_control__type_support.cpp.o\x1b[0m\n'}
+[3.252421] (carla_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/srv/detail/spawn_object__type_support.cpp.o\x1b[0m\n'}
+[3.252465] (carla_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_traffic_light_status_list__type_support.cpp.o\x1b[0m\n'}
+[3.252507] (carla_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_walker_control__type_support.cpp.o\x1b[0m\n'}
+[3.252564] (carla_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/srv/detail/get_blueprints__type_support.cpp.o\x1b[0m\n'}
+[3.252921] (carla_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_traffic_light_info__type_support.cpp.o\x1b[0m\n'}
+[3.253043] (carla_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/srv/detail/destroy_object__type_support.cpp.o\x1b[0m\n'}
+[3.253298] (carla_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_traffic_light_info_list__type_support.cpp.o\x1b[0m\n'}
+[3.253444] (carla_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_weather_parameters__type_support.cpp.o\x1b[0m\n'}
+[3.259587] (carla_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/carla_msgs/msg/detail/carla_actor_info__type_support.cpp.o\x1b[0m\n'}
+[3.273573] (carla_msgs) StdoutLine: {'line': b'[ 68%] Built target carla_msgs__rosidl_typesupport_introspection_c\n'}
+[3.305043] (carla_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libcarla_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.305188] (-) TimerEvent: {}
+[3.386365] (carla_msgs) StdoutLine: {'line': b'[ 69%] Built target carla_msgs__rosidl_typesupport_cpp\n'}
+[3.405316] (-) TimerEvent: {}
+[3.419309] (carla_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_bounding_box__type_support.cpp.o\x1b[0m\n'}
+[3.419521] (carla_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_collision_event__type_support.cpp.o\x1b[0m\n'}
+[3.419983] (carla_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_ego_vehicle_status__type_support.cpp.o\x1b[0m\n'}
+[3.422791] (carla_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_ego_vehicle_info__type_support.cpp.o\x1b[0m\n'}
+[3.422871] (carla_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_ego_vehicle_control__type_support.cpp.o\x1b[0m\n'}
+[3.423819] (carla_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_lane_invasion_event__type_support.cpp.o\x1b[0m\n'}
+[3.423932] (carla_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_ego_vehicle_info_wheel__type_support.cpp.o\x1b[0m\n'}
+[3.424598] (carla_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_actor_list__type_support.cpp.o\x1b[0m\n'}
+[3.425644] (carla_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_bounding_box__type_support_c.cpp.o\x1b[0m\n'}
+[3.427237] (carla_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_world_info__type_support.cpp.o\x1b[0m\n'}
+[3.427732] (carla_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_actor_info__type_support.cpp.o\x1b[0m\n'}
+[3.430286] (carla_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_control__type_support.cpp.o\x1b[0m\n'}
+[3.432348] (carla_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_ego_vehicle_control__type_support_c.cpp.o\x1b[0m\n'}
+[3.435091] (carla_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_status__type_support.cpp.o\x1b[0m\n'}
+[3.438905] (carla_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_ego_vehicle_status__type_support_c.cpp.o\x1b[0m\n'}
+[3.457639] (carla_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_ego_vehicle_info_wheel__type_support_c.cpp.o\x1b[0m\n'}
+[3.462554] (carla_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_traffic_light_info__type_support.cpp.o\x1b[0m\n'}
+[3.500893] (carla_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_ego_vehicle_info__type_support_c.cpp.o\x1b[0m\n'}
+[3.505411] (-) TimerEvent: {}
+[3.522467] (carla_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_lane_invasion_event__type_support_c.cpp.o\x1b[0m\n'}
+[3.522688] (carla_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_collision_event__type_support_c.cpp.o\x1b[0m\n'}
+[3.526886] (carla_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_traffic_light_info_list__type_support.cpp.o\x1b[0m\n'}
+[3.527058] (carla_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_world_info__type_support_c.cpp.o\x1b[0m\n'}
+[3.527580] (carla_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_traffic_light_status__type_support.cpp.o\x1b[0m\n'}
+[3.531287] (carla_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_traffic_light_status_list__type_support.cpp.o\x1b[0m\n'}
+[3.531454] (carla_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_actor_info__type_support_c.cpp.o\x1b[0m\n'}
+[3.549185] (carla_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_actor_list__type_support_c.cpp.o\x1b[0m\n'}
+[3.555962] (carla_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_walker_control__type_support.cpp.o\x1b[0m\n'}
+[3.556342] (carla_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_control__type_support_c.cpp.o\x1b[0m\n'}
+[3.605529] (-) TimerEvent: {}
+[3.609311] (carla_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/msg/detail/dds_fastrtps/carla_weather_parameters__type_support.cpp.o\x1b[0m\n'}
+[3.616589] (carla_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/srv/detail/dds_fastrtps/spawn_object__type_support.cpp.o\x1b[0m\n'}
+[3.706601] (carla_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_status__type_support_c.cpp.o\x1b[0m\n'}
+[3.706924] (-) TimerEvent: {}
+[3.722430] (carla_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX shared library libcarla_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.785075] (carla_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_traffic_light_info__type_support_c.cpp.o\x1b[0m\n'}
+[3.786923] (carla_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/srv/detail/dds_fastrtps/destroy_object__type_support.cpp.o\x1b[0m\n'}
+[3.787110] (carla_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_traffic_light_info_list__type_support_c.cpp.o\x1b[0m\n'}
+[3.795656] (carla_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/carla_msgs/srv/detail/dds_fastrtps/get_blueprints__type_support.cpp.o\x1b[0m\n'}
+[3.795943] (carla_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_traffic_light_status__type_support_c.cpp.o\x1b[0m\n'}
+[3.808624] (carla_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_walker_control__type_support_c.cpp.o\x1b[0m\n'}
+[3.808833] (-) TimerEvent: {}
+[3.808973] (carla_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_traffic_light_status_list__type_support_c.cpp.o\x1b[0m\n'}
+[3.811333] (carla_msgs) StdoutLine: {'line': b'[ 85%] Built target carla_msgs__rosidl_typesupport_introspection_cpp\n'}
+[3.821129] (carla_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/srv/detail/get_blueprints__type_support_c.cpp.o\x1b[0m\n'}
+[3.821882] (carla_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/msg/detail/carla_weather_parameters__type_support_c.cpp.o\x1b[0m\n'}
+[3.828587] (carla_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/srv/detail/destroy_object__type_support_c.cpp.o\x1b[0m\n'}
+[3.828933] (carla_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/carla_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/carla_msgs/srv/detail/spawn_object__type_support_c.cpp.o\x1b[0m\n'}
+[3.908946] (-) TimerEvent: {}
+[4.009215] (-) TimerEvent: {}
+[4.109483] (-) TimerEvent: {}
+[4.141331] (carla_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX shared library libcarla_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.172202] (carla_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX shared library libcarla_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.187670] (carla_msgs) StdoutLine: {'line': b'[ 87%] Built target carla_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.209590] (-) TimerEvent: {}
+[4.221464] (carla_msgs) StdoutLine: {'line': b'[ 87%] Built target carla_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.239396] (carla_msgs) StdoutLine: {'line': b'[ 87%] Built target carla_msgs\n'}
+[4.255915] (carla_msgs) StdoutLine: {'line': b'[ 87%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.309672] (-) TimerEvent: {}
+[4.409870] (-) TimerEvent: {}
+[4.510131] (-) TimerEvent: {}
+[4.610385] (-) TimerEvent: {}
+[4.710698] (-) TimerEvent: {}
+[4.810911] (-) TimerEvent: {}
+[4.911109] (-) TimerEvent: {}
+[5.011326] (-) TimerEvent: {}
+[5.111538] (-) TimerEvent: {}
+[5.211766] (-) TimerEvent: {}
+[5.311984] (-) TimerEvent: {}
+[5.412199] (-) TimerEvent: {}
+[5.447881] (carla_msgs) StdoutLine: {'line': b'[ 87%] Built target carla_msgs__py\n'}
+[5.462745] (carla_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_ego_vehicle_info_s.c.o\x1b[0m\n'}
+[5.463017] (carla_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_world_info_s.c.o\x1b[0m\n'}
+[5.463127] (carla_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_control_s.c.o\x1b[0m\n'}
+[5.463238] (carla_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_traffic_light_info_s.c.o\x1b[0m\n'}
+[5.463539] (carla_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_actor_list_s.c.o\x1b[0m\n'}
+[5.463679] (carla_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_ego_vehicle_control_s.c.o\x1b[0m\n'}
+[5.463770] (carla_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_lane_invasion_event_s.c.o\x1b[0m\n'}
+[5.463911] (carla_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_bounding_box_s.c.o\x1b[0m\n'}
+[5.463994] (carla_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_traffic_light_status_list_s.c.o\x1b[0m\n'}
+[5.464078] (carla_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_ego_vehicle_status_s.c.o\x1b[0m\n'}
+[5.464158] (carla_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_ego_vehicle_info_wheel_s.c.o\x1b[0m\n'}
+[5.464257] (carla_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_weather_parameters_s.c.o\x1b[0m\n'}
+[5.464355] (carla_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_collision_event_s.c.o\x1b[0m\n'}
+[5.464742] (carla_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_actor_info_s.c.o\x1b[0m\n'}
+[5.464930] (carla_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_status_s.c.o\x1b[0m\n'}
+[5.465056] (carla_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/srv/_destroy_object_s.c.o\x1b[0m\n'}
+[5.465175] (carla_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_traffic_light_info_list_s.c.o\x1b[0m\n'}
+[5.465582] (carla_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/srv/_get_blueprints_s.c.o\x1b[0m\n'}
+[5.465825] (carla_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_traffic_light_status_s.c.o\x1b[0m\n'}
+[5.466186] (carla_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/msg/_carla_walker_control_s.c.o\x1b[0m\n'}
+[5.466341] (carla_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/carla_msgs__rosidl_generator_py.dir/rosidl_generator_py/carla_msgs/srv/_spawn_object_s.c.o\x1b[0m\n'}
+[5.512294] (-) TimerEvent: {}
+[5.596100] (carla_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library libcarla_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[5.612381] (-) TimerEvent: {}
+[5.628124] (carla_msgs) StdoutLine: {'line': b'[ 97%] Built target carla_msgs__rosidl_generator_py\n'}
+[5.641509] (carla_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/carla_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/carla_msgs/_carla_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.641758] (carla_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/carla_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/carla_msgs/_carla_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.642528] (carla_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/carla_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/carla_msgs/_carla_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.712457] (-) TimerEvent: {}
+[5.731273] (carla_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/carla_msgs/carla_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.733935] (carla_msgs) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/carla_msgs/carla_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.734146] (carla_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/carla_msgs/carla_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.750678] (carla_msgs) StdoutLine: {'line': b'[100%] Built target carla_msgs_s__rosidl_typesupport_c\n'}
+[5.752502] (carla_msgs) StdoutLine: {'line': b'[100%] Built target carla_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[5.753601] (carla_msgs) StdoutLine: {'line': b'[100%] Built target carla_msgs_s__rosidl_typesupport_introspection_c\n'}
+[5.761201] (carla_msgs) CommandEnded: {'returncode': 0}
+[5.761803] (carla_msgs) JobProgress: {'identifier': 'carla_msgs', 'progress': 'install'}
+[5.770810] (carla_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/airlab/ros2_ws/build/carla_msgs'], 'cwd': '/home/airlab/ros2_ws/build/carla_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'airlab', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/airlab/ros2_ws/install/dynamixel_sdk/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/airlab', 'DESKTOP_SESSION': 'ubuntu-wayland', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '3012', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/airlab/ros2_ws', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/airlab/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'airlab', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'airlab', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/airlab/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/airlab/.local/bin:/home/airlab/.local/bin', 'SESSION_MANAGER': 'local/airlab:@/tmp/.ICE-unix/2988,unix/airlab:/tmp/.ICE-unix/2988', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/home/airlab/carla/PythonAPI/examples/ros2/config/fastrtps-profile.xml', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/02bdf7ed_b4d1_4f07_9434_a2be89c62013', 'GNOME_SETUP_DISPLAY': ':2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-wayland', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JWQPJ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.111', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/airlab/ros2_ws/install/dynamixel_workbench_operators:/home/airlab/ros2_ws/install/dynamixel_sdk:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-wayland', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/airlab/ros2_ws/build/carla_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-wayland:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/airlab/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/airlab/carla/carla_venv/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/airlab/ros2_ws/install/dynamixel_workbench_operators:/home/airlab/ros2_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.776233] (carla_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.776829] (carla_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.777007] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/ament_index/resource_index/rosidl_interfaces/carla_msgs\n'}
+[5.781801] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaBoundingBox.json\n'}
+[5.787655] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaEgoVehicleControl.json\n'}
+[5.794456] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaEgoVehicleStatus.json\n'}
+[5.801557] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaEgoVehicleInfoWheel.json\n'}
+[5.806797] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaEgoVehicleInfo.json\n'}
+[5.811765] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaCollisionEvent.json\n'}
+[5.812511] (-) TimerEvent: {}
+[5.818070] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaLaneInvasionEvent.json\n'}
+[5.824480] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaWorldInfo.json\n'}
+[5.829856] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaActorInfo.json\n'}
+[5.835765] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaActorList.json\n'}
+[5.846808] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaControl.json\n'}
+[5.856043] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaStatus.json\n'}
+[5.864494] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaTrafficLightInfo.json\n'}
+[5.870058] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaTrafficLightInfoList.json\n'}
+[5.874627] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaTrafficLightStatus.json\n'}
+[5.880839] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaTrafficLightStatusList.json\n'}
+[5.886380] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaWalkerControl.json\n'}
+[5.890636] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaWeatherParameters.json\n'}
+[5.895213] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/srv/SpawnObject.json\n'}
+[5.900531] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/srv/DestroyObject.json\n'}
+[5.905865] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/srv/GetBlueprints.json\n'}
+[5.912564] (-) TimerEvent: {}
+[5.914881] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_actor_info.h\n'}
+[5.921139] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_actor_list.h\n'}
+[5.926271] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_bounding_box.h\n'}
+[5.935529] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_collision_event.h\n'}
+[5.942536] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_control.h\n'}
+[5.947484] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_ego_vehicle_control.h\n'}
+[5.952661] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_ego_vehicle_info.h\n'}
+[5.958094] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_ego_vehicle_info_wheel.h\n'}
+[5.962270] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_ego_vehicle_status.h\n'}
+[5.965874] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_lane_invasion_event.h\n'}
+[5.969904] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_status.h\n'}
+[5.975145] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_traffic_light_info.h\n'}
+[5.980389] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_traffic_light_info_list.h\n'}
+[5.986441] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_traffic_light_status.h\n'}
+[5.990732] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_traffic_light_status_list.h\n'}
+[5.994331] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_walker_control.h\n'}
+[5.997920] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_weather_parameters.h\n'}
+[6.002724] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_world_info.h\n'}
+[6.011616] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_info__functions.h\n'}
+[6.012625] (-) TimerEvent: {}
+[6.019506] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_info__struct.h\n'}
+[6.024630] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_info__type_support.h\n'}
+[6.030006] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_list__functions.h\n'}
+[6.036249] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_list__struct.h\n'}
+[6.042755] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_list__type_support.h\n'}
+[6.052186] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_bounding_box__functions.h\n'}
+[6.059637] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_bounding_box__struct.h\n'}
+[6.069605] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_bounding_box__type_support.h\n'}
+[6.080203] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_collision_event__functions.h\n'}
+[6.085279] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_collision_event__struct.h\n'}
+[6.090229] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_collision_event__type_support.h\n'}
+[6.097036] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_control__functions.h\n'}
+[6.103740] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_control__struct.h\n'}
+[6.112388] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_control__type_support.h\n'}
+[6.112690] (-) TimerEvent: {}
+[6.119395] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_control__functions.h\n'}
+[6.124398] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_control__struct.h\n'}
+[6.131030] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_control__type_support.h\n'}
+[6.136623] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info__functions.h\n'}
+[6.140704] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info__struct.h\n'}
+[6.145252] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info__type_support.h\n'}
+[6.148785] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info_wheel__functions.h\n'}
+[6.153464] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info_wheel__struct.h\n'}
+[6.157593] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info_wheel__type_support.h\n'}
+[6.162796] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_status__functions.h\n'}
+[6.168110] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_status__struct.h\n'}
+[6.172037] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_status__type_support.h\n'}
+[6.176778] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_lane_invasion_event__functions.h\n'}
+[6.182807] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_lane_invasion_event__struct.h\n'}
+[6.192591] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_lane_invasion_event__type_support.h\n'}
+[6.198553] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_status__functions.h\n'}
+[6.202562] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_status__struct.h\n'}
+[6.207120] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_status__type_support.h\n'}
+[6.210984] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info__functions.h\n'}
+[6.212756] (-) TimerEvent: {}
+[6.215625] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info__struct.h\n'}
+[6.220533] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info__type_support.h\n'}
+[6.225400] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info_list__functions.h\n'}
+[6.228985] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info_list__struct.h\n'}
+[6.233796] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info_list__type_support.h\n'}
+[6.238538] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status__functions.h\n'}
+[6.242380] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status__struct.h\n'}
+[6.247617] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status__type_support.h\n'}
+[6.254429] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status_list__functions.h\n'}
+[6.267510] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status_list__struct.h\n'}
+[6.275186] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status_list__type_support.h\n'}
+[6.281402] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_walker_control__functions.h\n'}
+[6.285346] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_walker_control__struct.h\n'}
+[6.290218] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_walker_control__type_support.h\n'}
+[6.298092] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_weather_parameters__functions.h\n'}
+[6.303285] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_weather_parameters__struct.h\n'}
+[6.306858] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_weather_parameters__type_support.h\n'}
+[6.310948] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_world_info__functions.h\n'}
+[6.312813] (-) TimerEvent: {}
+[6.317229] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_world_info__struct.h\n'}
+[6.323045] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_world_info__type_support.h\n'}
+[6.326997] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.331131] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/destroy_object.h\n'}
+[6.334715] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/destroy_object__functions.h\n'}
+[6.339285] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/destroy_object__struct.h\n'}
+[6.348064] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/destroy_object__type_support.h\n'}
+[6.354424] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/get_blueprints__functions.h\n'}
+[6.361031] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/get_blueprints__struct.h\n'}
+[6.365804] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/get_blueprints__type_support.h\n'}
+[6.371704] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/spawn_object__functions.h\n'}
+[6.377733] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/spawn_object__struct.h\n'}
+[6.384686] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/spawn_object__type_support.h\n'}
+[6.389340] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/get_blueprints.h\n'}
+[6.394162] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/spawn_object.h\n'}
+[6.400366] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/environment/library_path.sh\n'}
+[6.407012] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/environment/library_path.dsv\n'}
+[6.412881] (-) TimerEvent: {}
+[6.415419] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_info__rosidl_typesupport_fastrtps_c.h\n'}
+[6.421941] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_list__rosidl_typesupport_fastrtps_c.h\n'}
+[6.441344] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_bounding_box__rosidl_typesupport_fastrtps_c.h\n'}
+[6.449683] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_collision_event__rosidl_typesupport_fastrtps_c.h\n'}
+[6.454637] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_control__rosidl_typesupport_fastrtps_c.h\n'}
+[6.458925] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_control__rosidl_typesupport_fastrtps_c.h\n'}
+[6.464260] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info__rosidl_typesupport_fastrtps_c.h\n'}
+[6.472313] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info_wheel__rosidl_typesupport_fastrtps_c.h\n'}
+[6.479188] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_status__rosidl_typesupport_fastrtps_c.h\n'}
+[6.485029] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_lane_invasion_event__rosidl_typesupport_fastrtps_c.h\n'}
+[6.491457] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_status__rosidl_typesupport_fastrtps_c.h\n'}
+[6.498798] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info__rosidl_typesupport_fastrtps_c.h\n'}
+[6.504815] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info_list__rosidl_typesupport_fastrtps_c.h\n'}
+[6.510095] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status__rosidl_typesupport_fastrtps_c.h\n'}
+[6.512961] (-) TimerEvent: {}
+[6.516480] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status_list__rosidl_typesupport_fastrtps_c.h\n'}
+[6.526624] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_walker_control__rosidl_typesupport_fastrtps_c.h\n'}
+[6.533519] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_weather_parameters__rosidl_typesupport_fastrtps_c.h\n'}
+[6.539148] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_world_info__rosidl_typesupport_fastrtps_c.h\n'}
+[6.542750] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.548442] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/destroy_object__rosidl_typesupport_fastrtps_c.h\n'}
+[6.554539] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/get_blueprints__rosidl_typesupport_fastrtps_c.h\n'}
+[6.559781] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/spawn_object__rosidl_typesupport_fastrtps_c.h\n'}
+[6.565235] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_actor_info.hpp\n'}
+[6.571901] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_actor_list.hpp\n'}
+[6.582691] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_bounding_box.hpp\n'}
+[6.594615] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_collision_event.hpp\n'}
+[6.601253] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_control.hpp\n'}
+[6.607597] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_ego_vehicle_control.hpp\n'}
+[6.613059] (-) TimerEvent: {}
+[6.618311] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_ego_vehicle_info.hpp\n'}
+[6.624665] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_ego_vehicle_info_wheel.hpp\n'}
+[6.629196] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_ego_vehicle_status.hpp\n'}
+[6.634353] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_lane_invasion_event.hpp\n'}
+[6.638282] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_status.hpp\n'}
+[6.644278] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_traffic_light_info.hpp\n'}
+[6.649879] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_traffic_light_info_list.hpp\n'}
+[6.653982] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_traffic_light_status.hpp\n'}
+[6.657969] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_traffic_light_status_list.hpp\n'}
+[6.662035] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_walker_control.hpp\n'}
+[6.667239] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_weather_parameters.hpp\n'}
+[6.670932] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/carla_world_info.hpp\n'}
+[6.676239] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_info__builder.hpp\n'}
+[6.681567] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_info__struct.hpp\n'}
+[6.689835] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_info__traits.hpp\n'}
+[6.693823] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_info__type_support.hpp\n'}
+[6.699164] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_list__builder.hpp\n'}
+[6.702809] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_list__struct.hpp\n'}
+[6.708293] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_list__traits.hpp\n'}
+[6.713115] (-) TimerEvent: {}
+[6.713631] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_list__type_support.hpp\n'}
+[6.718447] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_bounding_box__builder.hpp\n'}
+[6.723856] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_bounding_box__struct.hpp\n'}
+[6.727605] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_bounding_box__traits.hpp\n'}
+[6.733029] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_bounding_box__type_support.hpp\n'}
+[6.737070] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_collision_event__builder.hpp\n'}
+[6.741616] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_collision_event__struct.hpp\n'}
+[6.746854] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_collision_event__traits.hpp\n'}
+[6.751721] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_collision_event__type_support.hpp\n'}
+[6.764613] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_control__builder.hpp\n'}
+[6.774455] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_control__struct.hpp\n'}
+[6.781003] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_control__traits.hpp\n'}
+[6.786792] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_control__type_support.hpp\n'}
+[6.792523] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_control__builder.hpp\n'}
+[6.798034] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_control__struct.hpp\n'}
+[6.803859] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_control__traits.hpp\n'}
+[6.809153] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_control__type_support.hpp\n'}
+[6.813192] (-) TimerEvent: {}
+[6.814130] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info__builder.hpp\n'}
+[6.820603] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info__struct.hpp\n'}
+[6.826220] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info__traits.hpp\n'}
+[6.830388] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info__type_support.hpp\n'}
+[6.836729] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info_wheel__builder.hpp\n'}
+[6.848216] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info_wheel__struct.hpp\n'}
+[6.855622] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info_wheel__traits.hpp\n'}
+[6.861539] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info_wheel__type_support.hpp\n'}
+[6.867123] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_status__builder.hpp\n'}
+[6.871792] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_status__struct.hpp\n'}
+[6.878087] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_status__traits.hpp\n'}
+[6.882210] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_status__type_support.hpp\n'}
+[6.885792] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_lane_invasion_event__builder.hpp\n'}
+[6.889863] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_lane_invasion_event__struct.hpp\n'}
+[6.893733] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_lane_invasion_event__traits.hpp\n'}
+[6.901132] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_lane_invasion_event__type_support.hpp\n'}
+[6.906767] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_status__builder.hpp\n'}
+[6.912290] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_status__struct.hpp\n'}
+[6.913247] (-) TimerEvent: {}
+[6.916416] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_status__traits.hpp\n'}
+[6.923737] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_status__type_support.hpp\n'}
+[6.934622] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info__builder.hpp\n'}
+[6.941544] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info__struct.hpp\n'}
+[6.946490] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info__traits.hpp\n'}
+[6.950376] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info__type_support.hpp\n'}
+[6.955553] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info_list__builder.hpp\n'}
+[6.963364] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info_list__struct.hpp\n'}
+[6.968319] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info_list__traits.hpp\n'}
+[6.971865] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info_list__type_support.hpp\n'}
+[6.976945] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status__builder.hpp\n'}
+[6.984468] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status__struct.hpp\n'}
+[6.990732] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status__traits.hpp\n'}
+[6.995351] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status__type_support.hpp\n'}
+[6.999254] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status_list__builder.hpp\n'}
+[7.003877] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status_list__struct.hpp\n'}
+[7.011051] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status_list__traits.hpp\n'}
+[7.013405] (-) TimerEvent: {}
+[7.021468] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status_list__type_support.hpp\n'}
+[7.027568] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_walker_control__builder.hpp\n'}
+[7.031131] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_walker_control__struct.hpp\n'}
+[7.035177] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_walker_control__traits.hpp\n'}
+[7.040061] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_walker_control__type_support.hpp\n'}
+[7.043963] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_weather_parameters__builder.hpp\n'}
+[7.048918] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_weather_parameters__struct.hpp\n'}
+[7.052980] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_weather_parameters__traits.hpp\n'}
+[7.058443] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_weather_parameters__type_support.hpp\n'}
+[7.063234] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_world_info__builder.hpp\n'}
+[7.066993] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_world_info__struct.hpp\n'}
+[7.071390] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_world_info__traits.hpp\n'}
+[7.075312] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_world_info__type_support.hpp\n'}
+[7.080949] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.092492] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/destroy_object.hpp\n'}
+[7.097353] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/destroy_object__builder.hpp\n'}
+[7.102019] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/destroy_object__struct.hpp\n'}
+[7.106655] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/destroy_object__traits.hpp\n'}
+[7.111786] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/destroy_object__type_support.hpp\n'}
+[7.113449] (-) TimerEvent: {}
+[7.116995] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/get_blueprints__builder.hpp\n'}
+[7.124147] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/get_blueprints__struct.hpp\n'}
+[7.128330] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/get_blueprints__traits.hpp\n'}
+[7.134509] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/get_blueprints__type_support.hpp\n'}
+[7.139436] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/spawn_object__builder.hpp\n'}
+[7.144134] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/spawn_object__struct.hpp\n'}
+[7.149011] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/spawn_object__traits.hpp\n'}
+[7.153120] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/spawn_object__type_support.hpp\n'}
+[7.158245] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/get_blueprints.hpp\n'}
+[7.165591] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/spawn_object.hpp\n'}
+[7.172659] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.179326] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_list__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.182977] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_bounding_box__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.186932] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_collision_event__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.193912] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.200166] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.204251] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.209616] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info_wheel__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.213511] (-) TimerEvent: {}
+[7.215080] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.222823] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_lane_invasion_event__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.232198] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.241340] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.259768] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info_list__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.267507] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.276991] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status_list__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.281415] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_walker_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.284936] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_weather_parameters__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.288600] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_world_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.292968] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.298440] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/destroy_object__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.306134] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/get_blueprints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.311097] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/spawn_object__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.313629] (-) TimerEvent: {}
+[7.316147] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_info__rosidl_typesupport_introspection_c.h\n'}
+[7.323663] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_list__rosidl_typesupport_introspection_c.h\n'}
+[7.332310] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_bounding_box__rosidl_typesupport_introspection_c.h\n'}
+[7.338837] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_collision_event__rosidl_typesupport_introspection_c.h\n'}
+[7.343307] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_control__rosidl_typesupport_introspection_c.h\n'}
+[7.348847] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_control__rosidl_typesupport_introspection_c.h\n'}
+[7.363703] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info__rosidl_typesupport_introspection_c.h\n'}
+[7.373769] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info_wheel__rosidl_typesupport_introspection_c.h\n'}
+[7.378649] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_status__rosidl_typesupport_introspection_c.h\n'}
+[7.382424] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_lane_invasion_event__rosidl_typesupport_introspection_c.h\n'}
+[7.388219] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_status__rosidl_typesupport_introspection_c.h\n'}
+[7.393961] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info__rosidl_typesupport_introspection_c.h\n'}
+[7.398938] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info_list__rosidl_typesupport_introspection_c.h\n'}
+[7.403261] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status__rosidl_typesupport_introspection_c.h\n'}
+[7.409347] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status_list__rosidl_typesupport_introspection_c.h\n'}
+[7.413715] (-) TimerEvent: {}
+[7.415443] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_walker_control__rosidl_typesupport_introspection_c.h\n'}
+[7.423673] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_weather_parameters__rosidl_typesupport_introspection_c.h\n'}
+[7.427607] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_world_info__rosidl_typesupport_introspection_c.h\n'}
+[7.431289] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.435896] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/destroy_object__rosidl_typesupport_introspection_c.h\n'}
+[7.447351] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/get_blueprints__rosidl_typesupport_introspection_c.h\n'}
+[7.457878] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/spawn_object__rosidl_typesupport_introspection_c.h\n'}
+[7.463447] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.467435] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_actor_list__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.471600] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_bounding_box__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.476217] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_collision_event__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.480249] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.485874] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.491131] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.495221] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_info_wheel__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.500080] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_ego_vehicle_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.509119] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_lane_invasion_event__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.513783] (-) TimerEvent: {}
+[7.518178] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.523586] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.529959] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_info_list__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.545876] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.557721] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_traffic_light_status_list__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.567117] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_walker_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.572812] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_weather_parameters__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.583342] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/msg/detail/carla_world_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.596826] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/destroy_object__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.602659] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/get_blueprints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.608116] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/include/carla_msgs/carla_msgs/srv/detail/spawn_object__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.612746] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/environment/pythonpath.sh\n'}
+[7.613844] (-) TimerEvent: {}
+[7.618577] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/environment/pythonpath.dsv\n'}
+[7.624221] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs-1.3.0-py3.12.egg-info/PKG-INFO\n'}
+[7.629711] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs-1.3.0-py3.12.egg-info/SOURCES.txt\n'}
+[7.633754] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs-1.3.0-py3.12.egg-info/dependency_links.txt\n'}
+[7.638677] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs-1.3.0-py3.12.egg-info/top_level.txt\n'}
+[7.654048] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/__init__.py\n'}
+[7.662209] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/_carla_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[7.666269] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/_carla_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.669769] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/_carla_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.675545] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/carla_msgs_s__rosidl_typesupport_c.so\n'}
+[7.682509] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/carla_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[7.687041] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/carla_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[7.692221] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/__init__.py\n'}
+[7.697157] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_actor_info.py\n'}
+[7.703621] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_actor_info_s.c\n'}
+[7.708351] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_actor_list.py\n'}
+[7.712125] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_actor_list_s.c\n'}
+[7.713901] (-) TimerEvent: {}
+[7.716296] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_bounding_box.py\n'}
+[7.722212] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_bounding_box_s.c\n'}
+[7.733803] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_collision_event.py\n'}
+[7.741422] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_collision_event_s.c\n'}
+[7.751183] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_control.py\n'}
+[7.757537] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_control_s.c\n'}
+[7.762735] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_ego_vehicle_control.py\n'}
+[7.767524] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_ego_vehicle_control_s.c\n'}
+[7.772605] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_ego_vehicle_info.py\n'}
+[7.777696] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_ego_vehicle_info_s.c\n'}
+[7.783111] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_ego_vehicle_info_wheel.py\n'}
+[7.791064] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_ego_vehicle_info_wheel_s.c\n'}
+[7.799461] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_ego_vehicle_status.py\n'}
+[7.803434] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_ego_vehicle_status_s.c\n'}
+[7.809004] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_lane_invasion_event.py\n'}
+[7.813969] (-) TimerEvent: {}
+[7.815105] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_lane_invasion_event_s.c\n'}
+[7.822528] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_status.py\n'}
+[7.827538] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_status_s.c\n'}
+[7.831539] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_traffic_light_info.py\n'}
+[7.835175] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_traffic_light_info_list.py\n'}
+[7.838673] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_traffic_light_info_list_s.c\n'}
+[7.844805] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_traffic_light_info_s.c\n'}
+[7.848995] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_traffic_light_status.py\n'}
+[7.853795] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_traffic_light_status_list.py\n'}
+[7.858000] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_traffic_light_status_list_s.c\n'}
+[7.861576] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_traffic_light_status_s.c\n'}
+[7.867342] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_walker_control.py\n'}
+[7.871903] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_walker_control_s.c\n'}
+[7.876860] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_weather_parameters.py\n'}
+[7.881237] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_weather_parameters_s.c\n'}
+[7.885580] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_world_info.py\n'}
+[7.891837] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_world_info_s.c\n'}
+[7.897169] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/srv/__init__.py\n'}
+[7.905399] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/srv/_destroy_object.py\n'}
+[7.914056] (-) TimerEvent: {}
+[7.918535] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/srv/_destroy_object_s.c\n'}
+[7.935753] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/srv/_get_blueprints.py\n'}
+[7.943445] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/srv/_get_blueprints_s.c\n'}
+[7.948281] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/srv/_spawn_object.py\n'}
+[7.953242] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/srv/_spawn_object_s.c\n'}
+[7.959389] (carla_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/carla_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[7.959585] (carla_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/carla_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[7.959897] (carla_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/carla_msgs_s__rosidl_typesupport_c.so\n'}
+[7.960004] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaBoundingBox.idl\n'}
+[7.967054] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaEgoVehicleControl.idl\n'}
+[7.971540] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaEgoVehicleStatus.idl\n'}
+[7.975617] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaEgoVehicleInfoWheel.idl\n'}
+[7.980880] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaEgoVehicleInfo.idl\n'}
+[7.985535] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaCollisionEvent.idl\n'}
+[7.993263] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaLaneInvasionEvent.idl\n'}
+[7.997908] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaWorldInfo.idl\n'}
+[8.003993] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaActorInfo.idl\n'}
+[8.009770] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaActorList.idl\n'}
+[8.014229] (-) TimerEvent: {}
+[8.024684] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaControl.idl\n'}
+[8.030131] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaStatus.idl\n'}
+[8.035923] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaTrafficLightInfo.idl\n'}
+[8.039637] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaTrafficLightInfoList.idl\n'}
+[8.043384] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaTrafficLightStatus.idl\n'}
+[8.049331] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaTrafficLightStatusList.idl\n'}
+[8.054807] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaWalkerControl.idl\n'}
+[8.059242] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaWeatherParameters.idl\n'}
+[8.063147] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/srv/SpawnObject.idl\n'}
+[8.067473] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/srv/DestroyObject.idl\n'}
+[8.072039] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/srv/GetBlueprints.idl\n'}
+[8.077597] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaBoundingBox.msg\n'}
+[8.082560] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaEgoVehicleControl.msg\n'}
+[8.088196] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaEgoVehicleStatus.msg\n'}
+[8.096215] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaEgoVehicleInfoWheel.msg\n'}
+[8.100907] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaEgoVehicleInfo.msg\n'}
+[8.105712] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaCollisionEvent.msg\n'}
+[8.112360] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaLaneInvasionEvent.msg\n'}
+[8.114277] (-) TimerEvent: {}
+[8.119928] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaWorldInfo.msg\n'}
+[8.127170] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaActorInfo.msg\n'}
+[8.133820] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaActorList.msg\n'}
+[8.138878] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaControl.msg\n'}
+[8.147760] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaStatus.msg\n'}
+[8.156879] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaTrafficLightInfo.msg\n'}
+[8.161750] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaTrafficLightInfoList.msg\n'}
+[8.167218] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaTrafficLightStatus.msg\n'}
+[8.172676] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaTrafficLightStatusList.msg\n'}
+[8.187836] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaWalkerControl.msg\n'}
+[8.196061] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/msg/CarlaWeatherParameters.msg\n'}
+[8.202684] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/srv/SpawnObject.srv\n'}
+[8.206415] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/srv/DestroyObject.srv\n'}
+[8.211272] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/srv/GetBlueprints.srv\n'}
+[8.214396] (-) TimerEvent: {}
+[8.216760] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/ament_index/resource_index/package_run_dependencies/carla_msgs\n'}
+[8.223448] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/ament_index/resource_index/parent_prefix_path/carla_msgs\n'}
+[8.227941] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/environment/ament_prefix_path.sh\n'}
+[8.235398] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/environment/ament_prefix_path.dsv\n'}
+[8.245083] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/environment/path.sh\n'}
+[8.255103] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/environment/path.dsv\n'}
+[8.261071] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/local_setup.bash\n'}
+[8.272418] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/local_setup.sh\n'}
+[8.286422] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/local_setup.zsh\n'}
+[8.295031] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/local_setup.dsv\n'}
+[8.302777] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/package.dsv\n'}
+[8.309579] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/ament_index/resource_index/packages/carla_msgs\n'}
+[8.314491] (-) TimerEvent: {}
+[8.315486] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[8.320786] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.326989] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.331320] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.338802] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.345991] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.352570] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.360326] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/cmake/carla_msgsConfig.cmake\n'}
+[8.372656] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/cmake/carla_msgsConfig-version.cmake\n'}
+[8.380736] (carla_msgs) StdoutLine: {'line': b'-- Symlinking: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/package.xml\n'}
+[8.386045] (carla_msgs) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/carla_msgs/lib/libcarla_msgs__rosidl_generator_c.so\n'}
+[8.386357] (carla_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/airlab/ros2_ws/install/carla_msgs/lib/libcarla_msgs__rosidl_generator_c.so" to ""\n'}
+[8.386437] (carla_msgs) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/carla_msgs/lib/libcarla_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[8.386628] (carla_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/airlab/ros2_ws/install/carla_msgs/lib/libcarla_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.386705] (carla_msgs) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/carla_msgs/lib/libcarla_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.387074] (carla_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/airlab/ros2_ws/install/carla_msgs/lib/libcarla_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.387146] (carla_msgs) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/carla_msgs/lib/libcarla_msgs__rosidl_typesupport_introspection_c.so\n'}
+[8.387286] (carla_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/airlab/ros2_ws/install/carla_msgs/lib/libcarla_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.387357] (carla_msgs) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/carla_msgs/lib/libcarla_msgs__rosidl_typesupport_c.so\n'}
+[8.387463] (carla_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/airlab/ros2_ws/install/carla_msgs/lib/libcarla_msgs__rosidl_typesupport_c.so" to ""\n'}
+[8.387552] (carla_msgs) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/carla_msgs/lib/libcarla_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[8.387871] (carla_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/airlab/ros2_ws/install/carla_msgs/lib/libcarla_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.387947] (carla_msgs) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/carla_msgs/lib/libcarla_msgs__rosidl_typesupport_cpp.so\n'}
+[8.388144] (carla_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/airlab/ros2_ws/install/carla_msgs/lib/libcarla_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[8.414578] (-) TimerEvent: {}
+[8.430192] (carla_msgs) StdoutLine: {'line': b"Listing '/home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs'...\n"}
+[8.430352] (carla_msgs) StdoutLine: {'line': b"Compiling '/home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/__init__.py'...\n"}
+[8.430420] (carla_msgs) StdoutLine: {'line': b"Listing '/home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg'...\n"}
+[8.430483] (carla_msgs) StdoutLine: {'line': b"Compiling '/home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/__init__.py'...\n"}
+[8.430544] (carla_msgs) StdoutLine: {'line': b"Compiling '/home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_actor_info.py'...\n"}
+[8.430608] (carla_msgs) StdoutLine: {'line': b"Compiling '/home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_actor_list.py'...\n"}
+[8.430668] (carla_msgs) StdoutLine: {'line': b"Compiling '/home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_bounding_box.py'...\n"}
+[8.430725] (carla_msgs) StdoutLine: {'line': b"Compiling '/home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_collision_event.py'...\n"}
+[8.430783] (carla_msgs) StdoutLine: {'line': b"Compiling '/home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_control.py'...\n"}
+[8.430842] (carla_msgs) StdoutLine: {'line': b"Compiling '/home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_ego_vehicle_control.py'...\n"}
+[8.430899] (carla_msgs) StdoutLine: {'line': b"Compiling '/home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_ego_vehicle_info.py'...\n"}
+[8.430956] (carla_msgs) StdoutLine: {'line': b"Compiling '/home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_ego_vehicle_info_wheel.py'...\n"}
+[8.431014] (carla_msgs) StdoutLine: {'line': b"Compiling '/home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_ego_vehicle_status.py'...\n"}
+[8.431071] (carla_msgs) StdoutLine: {'line': b"Compiling '/home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_lane_invasion_event.py'...\n"}
+[8.431129] (carla_msgs) StdoutLine: {'line': b"Compiling '/home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_status.py'...\n"}
+[8.431188] (carla_msgs) StdoutLine: {'line': b"Compiling '/home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_traffic_light_info.py'...\n"}
+[8.431244] (carla_msgs) StdoutLine: {'line': b"Compiling '/home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_traffic_light_info_list.py'...\n"}
+[8.431303] (carla_msgs) StdoutLine: {'line': b"Compiling '/home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_traffic_light_status.py'...\n"}
+[8.431360] (carla_msgs) StdoutLine: {'line': b"Compiling '/home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_traffic_light_status_list.py'...\n"}
+[8.431417] (carla_msgs) StdoutLine: {'line': b"Compiling '/home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_walker_control.py'...\n"}
+[8.431485] (carla_msgs) StdoutLine: {'line': b"Compiling '/home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_weather_parameters.py'...\n"}
+[8.431542] (carla_msgs) StdoutLine: {'line': b"Compiling '/home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/msg/_carla_world_info.py'...\n"}
+[8.431605] (carla_msgs) StdoutLine: {'line': b"Listing '/home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/srv'...\n"}
+[8.431664] (carla_msgs) StdoutLine: {'line': b"Compiling '/home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/srv/__init__.py'...\n"}
+[8.431720] (carla_msgs) StdoutLine: {'line': b"Compiling '/home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/srv/_destroy_object.py'...\n"}
+[8.431776] (carla_msgs) StdoutLine: {'line': b"Compiling '/home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/srv/_get_blueprints.py'...\n"}
+[8.431834] (carla_msgs) StdoutLine: {'line': b"Compiling '/home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages/carla_msgs/srv/_spawn_object.py'...\n"}
+[8.433103] (carla_msgs) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/carla_msgs/lib/libcarla_msgs__rosidl_generator_py.so\n'}
+[8.433364] (carla_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/airlab/ros2_ws/install/carla_msgs/lib/libcarla_msgs__rosidl_generator_py.so" to ""\n'}
+[8.433455] (carla_msgs) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/cmake/export_carla_msgs__rosidl_generator_cExport.cmake\n'}
+[8.433537] (carla_msgs) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/cmake/export_carla_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.433629] (carla_msgs) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/cmake/export_carla_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.433696] (carla_msgs) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/cmake/export_carla_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.433781] (carla_msgs) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/cmake/export_carla_msgs__rosidl_generator_cppExport.cmake\n'}
+[8.433857] (carla_msgs) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/cmake/export_carla_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.433919] (carla_msgs) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/cmake/export_carla_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.433979] (carla_msgs) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/cmake/carla_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.434038] (carla_msgs) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/cmake/carla_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.434095] (carla_msgs) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/cmake/carla_msgs__rosidl_typesupport_cExport.cmake\n'}
+[8.434152] (carla_msgs) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/cmake/carla_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.434209] (carla_msgs) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/cmake/carla_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.434267] (carla_msgs) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/cmake/carla_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.434325] (carla_msgs) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/cmake/carla_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[8.434388] (carla_msgs) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/cmake/carla_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.434447] (carla_msgs) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/cmake/export_carla_msgs__rosidl_generator_pyExport.cmake\n'}
+[8.434504] (carla_msgs) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/cmake/export_carla_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.434900] (carla_msgs) CommandEnded: {'returncode': 0}
+[8.444610] (carla_msgs) JobEnded: {'identifier': 'carla_msgs', 'rc': 0}
+[8.445173] (twist_to_carla_control) JobStarted: {'identifier': 'twist_to_carla_control'}
+[8.453228] (twist_to_carla_control) JobProgress: {'identifier': 'twist_to_carla_control', 'progress': 'cmake'}
+[8.454017] (twist_to_carla_control) Command: {'cmd': ['/usr/bin/cmake', '/home/airlab/ros2_ws/src/twist_to_carla_control', '-DCMAKE_INSTALL_PREFIX=/home/airlab/ros2_ws/install/twist_to_carla_control'], 'cwd': '/home/airlab/ros2_ws/build/twist_to_carla_control', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'airlab', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/airlab/ros2_ws/install/carla_msgs/lib:/home/airlab/ros2_ws/install/dynamixel_sdk/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/airlab', 'DESKTOP_SESSION': 'ubuntu-wayland', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '3012', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/airlab/ros2_ws', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/airlab/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'airlab', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'airlab', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/airlab/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/airlab/.local/bin:/home/airlab/.local/bin', 'SESSION_MANAGER': 'local/airlab:@/tmp/.ICE-unix/2988,unix/airlab:/tmp/.ICE-unix/2988', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/home/airlab/carla/PythonAPI/examples/ros2/config/fastrtps-profile.xml', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/02bdf7ed_b4d1_4f07_9434_a2be89c62013', 'GNOME_SETUP_DISPLAY': ':2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-wayland', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JWQPJ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.111', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/airlab/ros2_ws/install/carla_msgs:/home/airlab/ros2_ws/install/dynamixel_workbench_operators:/home/airlab/ros2_ws/install/dynamixel_sdk:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-wayland', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/airlab/ros2_ws/build/twist_to_carla_control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-wayland:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages:/home/airlab/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/airlab/carla/carla_venv/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/airlab/ros2_ws/install/carla_msgs:/home/airlab/ros2_ws/install/dynamixel_workbench_operators:/home/airlab/ros2_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[8.487458] (twist_to_carla_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[8.514674] (-) TimerEvent: {}
+[8.525652] (twist_to_carla_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[8.538781] (twist_to_carla_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[8.607371] (twist_to_carla_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[8.613838] (twist_to_carla_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[8.614062] (twist_to_carla_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[8.614338] (twist_to_carla_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.614731] (-) TimerEvent: {}
+[8.620254] (twist_to_carla_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.706789] (twist_to_carla_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.711411] (twist_to_carla_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.711558] (twist_to_carla_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.711802] (twist_to_carla_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.712977] (twist_to_carla_control) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[8.714800] (-) TimerEvent: {}
+[8.803062] (twist_to_carla_control) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[8.814892] (-) TimerEvent: {}
+[8.861537] (twist_to_carla_control) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[8.879891] (twist_to_carla_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[8.889015] (twist_to_carla_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[8.896460] (twist_to_carla_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.905042] (twist_to_carla_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.914969] (-) TimerEvent: {}
+[8.954080] (twist_to_carla_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[8.956134] (twist_to_carla_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[9.007346] (twist_to_carla_control) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[9.015034] (-) TimerEvent: {}
+[9.017264] (twist_to_carla_control) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[9.031604] (twist_to_carla_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.074334] (twist_to_carla_control) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[9.093779] (twist_to_carla_control) StdoutLine: {'line': b'-- Found carla_msgs: 1.3.0 (/home/airlab/ros2_ws/install/carla_msgs/share/carla_msgs/cmake)\n'}
+[9.115121] (-) TimerEvent: {}
+[9.132083] (twist_to_carla_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[9.215796] (-) TimerEvent: {}
+[9.221355] (twist_to_carla_control) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[9.222253] (twist_to_carla_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.222383] (twist_to_carla_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[9.222481] (twist_to_carla_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[9.223032] (twist_to_carla_control) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[9.223121] (twist_to_carla_control) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[9.223489] (twist_to_carla_control) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[9.223581] (twist_to_carla_control) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[9.223936] (twist_to_carla_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.224339] (twist_to_carla_control) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[9.224888] (twist_to_carla_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[9.224977] (twist_to_carla_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[9.225299] (twist_to_carla_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.226180] (twist_to_carla_control) StdoutLine: {'line': b'-- Configuring done (0.8s)\n'}
+[9.232689] (twist_to_carla_control) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[9.234571] (twist_to_carla_control) StdoutLine: {'line': b'-- Build files have been written to: /home/airlab/ros2_ws/build/twist_to_carla_control\n'}
+[9.240648] (twist_to_carla_control) CommandEnded: {'returncode': 0}
+[9.240992] (twist_to_carla_control) JobProgress: {'identifier': 'twist_to_carla_control', 'progress': 'build'}
+[9.241190] (twist_to_carla_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/airlab/ros2_ws/build/twist_to_carla_control', '--', '-j32', '-l32'], 'cwd': '/home/airlab/ros2_ws/build/twist_to_carla_control', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'airlab', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/airlab/ros2_ws/install/carla_msgs/lib:/home/airlab/ros2_ws/install/dynamixel_sdk/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/airlab', 'DESKTOP_SESSION': 'ubuntu-wayland', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '3012', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/airlab/ros2_ws', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/airlab/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'airlab', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'airlab', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/airlab/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/airlab/.local/bin:/home/airlab/.local/bin', 'SESSION_MANAGER': 'local/airlab:@/tmp/.ICE-unix/2988,unix/airlab:/tmp/.ICE-unix/2988', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/home/airlab/carla/PythonAPI/examples/ros2/config/fastrtps-profile.xml', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/02bdf7ed_b4d1_4f07_9434_a2be89c62013', 'GNOME_SETUP_DISPLAY': ':2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-wayland', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JWQPJ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.111', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/airlab/ros2_ws/install/carla_msgs:/home/airlab/ros2_ws/install/dynamixel_workbench_operators:/home/airlab/ros2_ws/install/dynamixel_sdk:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-wayland', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/airlab/ros2_ws/build/twist_to_carla_control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-wayland:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages:/home/airlab/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/airlab/carla/carla_venv/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/airlab/ros2_ws/install/carla_msgs:/home/airlab/ros2_ws/install/dynamixel_workbench_operators:/home/airlab/ros2_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[9.274431] (twist_to_carla_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/twist_to_carla_control_node.dir/src/twist_to_carla_control.cpp.o\x1b[0m\n'}
+[9.315864] (-) TimerEvent: {}
+[9.416092] (-) TimerEvent: {}
+[9.516320] (-) TimerEvent: {}
+[9.616598] (-) TimerEvent: {}
+[9.716903] (-) TimerEvent: {}
+[9.817127] (-) TimerEvent: {}
+[9.917419] (-) TimerEvent: {}
+[10.017711] (-) TimerEvent: {}
+[10.118022] (-) TimerEvent: {}
+[10.218244] (-) TimerEvent: {}
+[10.318484] (-) TimerEvent: {}
+[10.418729] (-) TimerEvent: {}
+[10.519010] (-) TimerEvent: {}
+[10.619296] (-) TimerEvent: {}
+[10.719618] (-) TimerEvent: {}
+[10.819859] (-) TimerEvent: {}
+[10.920090] (-) TimerEvent: {}
+[11.020323] (-) TimerEvent: {}
+[11.120573] (-) TimerEvent: {}
+[11.220837] (-) TimerEvent: {}
+[11.321077] (-) TimerEvent: {}
+[11.421338] (-) TimerEvent: {}
+[11.521642] (-) TimerEvent: {}
+[11.621890] (-) TimerEvent: {}
+[11.722133] (-) TimerEvent: {}
+[11.822312] (-) TimerEvent: {}
+[11.922506] (-) TimerEvent: {}
+[12.022692] (-) TimerEvent: {}
+[12.122869] (-) TimerEvent: {}
+[12.223038] (-) TimerEvent: {}
+[12.323217] (-) TimerEvent: {}
+[12.423397] (-) TimerEvent: {}
+[12.523582] (-) TimerEvent: {}
+[12.623760] (-) TimerEvent: {}
+[12.723935] (-) TimerEvent: {}
+[12.824105] (-) TimerEvent: {}
+[12.924286] (-) TimerEvent: {}
+[13.024467] (-) TimerEvent: {}
+[13.124653] (-) TimerEvent: {}
+[13.224837] (-) TimerEvent: {}
+[13.238464] (twist_to_carla_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable twist_to_carla_control_node\x1b[0m\n'}
+[13.324933] (-) TimerEvent: {}
+[13.397067] (twist_to_carla_control) StdoutLine: {'line': b'[100%] Built target twist_to_carla_control_node\n'}
+[13.406468] (twist_to_carla_control) CommandEnded: {'returncode': 0}
+[13.406738] (twist_to_carla_control) JobProgress: {'identifier': 'twist_to_carla_control', 'progress': 'install'}
+[13.406831] (twist_to_carla_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/airlab/ros2_ws/build/twist_to_carla_control'], 'cwd': '/home/airlab/ros2_ws/build/twist_to_carla_control', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'airlab', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/airlab/ros2_ws/install/carla_msgs/lib:/home/airlab/ros2_ws/install/dynamixel_sdk/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/airlab', 'DESKTOP_SESSION': 'ubuntu-wayland', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '3012', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/airlab/ros2_ws', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/airlab/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'airlab', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'airlab', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/airlab/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/airlab/.local/bin:/home/airlab/.local/bin', 'SESSION_MANAGER': 'local/airlab:@/tmp/.ICE-unix/2988,unix/airlab:/tmp/.ICE-unix/2988', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/home/airlab/carla/PythonAPI/examples/ros2/config/fastrtps-profile.xml', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/02bdf7ed_b4d1_4f07_9434_a2be89c62013', 'GNOME_SETUP_DISPLAY': ':2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-wayland', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JWQPJ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.111', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/airlab/ros2_ws/install/carla_msgs:/home/airlab/ros2_ws/install/dynamixel_workbench_operators:/home/airlab/ros2_ws/install/dynamixel_sdk:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-wayland', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/airlab/ros2_ws/build/twist_to_carla_control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-wayland:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/airlab/ros2_ws/install/carla_msgs/lib/python3.12/site-packages:/home/airlab/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/airlab/carla/carla_venv/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/airlab/ros2_ws/install/carla_msgs:/home/airlab/ros2_ws/install/dynamixel_workbench_operators:/home/airlab/ros2_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[13.410561] (twist_to_carla_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.410641] (twist_to_carla_control) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/twist_to_carla_control/lib/twist_to_carla_control/twist_to_carla_control_node\n'}
+[13.412661] (twist_to_carla_control) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/airlab/ros2_ws/install/twist_to_carla_control/lib/twist_to_carla_control/twist_to_carla_control_node" to ""\n'}
+[13.412711] (twist_to_carla_control) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/twist_to_carla_control/share/twist_to_carla_control/launch\n'}
+[13.412753] (twist_to_carla_control) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/twist_to_carla_control/share/twist_to_carla_control/launch/twist_to_carla.launch.py\n'}
+[13.412796] (twist_to_carla_control) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/twist_to_carla_control/share/ament_index/resource_index/package_run_dependencies/twist_to_carla_control\n'}
+[13.412855] (twist_to_carla_control) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/twist_to_carla_control/share/ament_index/resource_index/parent_prefix_path/twist_to_carla_control\n'}
+[13.412901] (twist_to_carla_control) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/twist_to_carla_control/share/twist_to_carla_control/environment/ament_prefix_path.sh\n'}
+[13.412940] (twist_to_carla_control) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/twist_to_carla_control/share/twist_to_carla_control/environment/ament_prefix_path.dsv\n'}
+[13.412977] (twist_to_carla_control) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/twist_to_carla_control/share/twist_to_carla_control/environment/path.sh\n'}
+[13.413018] (twist_to_carla_control) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/twist_to_carla_control/share/twist_to_carla_control/environment/path.dsv\n'}
+[13.413058] (twist_to_carla_control) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/twist_to_carla_control/share/twist_to_carla_control/local_setup.bash\n'}
+[13.413102] (twist_to_carla_control) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/twist_to_carla_control/share/twist_to_carla_control/local_setup.sh\n'}
+[13.413139] (twist_to_carla_control) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/twist_to_carla_control/share/twist_to_carla_control/local_setup.zsh\n'}
+[13.413182] (twist_to_carla_control) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/twist_to_carla_control/share/twist_to_carla_control/local_setup.dsv\n'}
+[13.413221] (twist_to_carla_control) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/twist_to_carla_control/share/twist_to_carla_control/package.dsv\n'}
+[13.413273] (twist_to_carla_control) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/twist_to_carla_control/share/ament_index/resource_index/packages/twist_to_carla_control\n'}
+[13.413324] (twist_to_carla_control) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/twist_to_carla_control/share/twist_to_carla_control/cmake/twist_to_carla_controlConfig.cmake\n'}
+[13.413364] (twist_to_carla_control) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/twist_to_carla_control/share/twist_to_carla_control/cmake/twist_to_carla_controlConfig-version.cmake\n'}
+[13.413400] (twist_to_carla_control) StdoutLine: {'line': b'-- Installing: /home/airlab/ros2_ws/install/twist_to_carla_control/share/twist_to_carla_control/package.xml\n'}
+[13.414138] (twist_to_carla_control) CommandEnded: {'returncode': 0}
+[13.421929] (twist_to_carla_control) JobEnded: {'identifier': 'twist_to_carla_control', 'rc': 0}
+[13.422508] (-) EventReactorShutdown: {}

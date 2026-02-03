@@ -1,0 +1,10 @@
+[01m[K/home/airlab/ros2_ws/src/dynamixel_workbench_operators/src/wheel_operator.cpp:[m[K In constructor ‘[01m[KDynamixelWorkbenchOperator::[01;32m[KDynamixelWorkbenchOperator[m[K()[m[K’:
+[01m[K/home/airlab/ros2_ws/src/dynamixel_workbench_operators/src/wheel_operator.cpp:146:12:[m[K [01;35m[Kwarning: [m[K‘[01m[KDynamixelWorkbenchOperator::count_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  146 |     size_t [01;35m[Kcount_[m[K;
+      |            [01;35m[K^~~~~~[m[K
+[01m[K/home/airlab/ros2_ws/src/dynamixel_workbench_operators/src/wheel_operator.cpp:144:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble DynamixelWorkbenchOperator::lin_vel_step[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  144 |     double [01;35m[Klin_vel_step[m[K;
+      |            [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/airlab/ros2_ws/src/dynamixel_workbench_operators/src/wheel_operator.cpp:81:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   81 |     [01;35m[KDynamixelWorkbenchOperator[m[K() : Node("dynamixel_workbench_operator"), count_(0),lin_vel_step(0.01), ang_vel_step(0.1)
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

@@ -1,0 +1,10 @@
+/home/airlab/ros2_ws/build/camera/CMakeFiles/uninstall.dir
+/home/airlab/ros2_ws/build/camera/CMakeFiles/camera_uninstall.dir
+/home/airlab/ros2_ws/build/camera/CMakeFiles/camera.dir
+/home/airlab/ros2_ws/build/camera/CMakeFiles/test.dir
+/home/airlab/ros2_ws/build/camera/CMakeFiles/edit_cache.dir
+/home/airlab/ros2_ws/build/camera/CMakeFiles/rebuild_cache.dir
+/home/airlab/ros2_ws/build/camera/CMakeFiles/list_install_components.dir
+/home/airlab/ros2_ws/build/camera/CMakeFiles/install.dir
+/home/airlab/ros2_ws/build/camera/CMakeFiles/install/local.dir
+/home/airlab/ros2_ws/build/camera/CMakeFiles/install/strip.dir

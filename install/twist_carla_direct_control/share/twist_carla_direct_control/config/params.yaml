@@ -1,0 +1,10 @@
+twist_carla_controller:
+  ros__parameters:
+    carla_host: "localhost"
+    carla_port: 2000
+    role_name: "ego_vehicle"
+    timeout: 10.0
+    max_steering_angle: 0.7  # radians
+    max_speed: 10.0  # m/s
+    wheelbase: 2.87  # meters
+    update_rate: 50.0  # Hz

@@ -1,0 +1,6 @@
+msg/CarlaWaypoint.idl
+msg/CarlaWaypoint.msg
+srv/GetActorWaypoint.idl
+srv/GetActorWaypoint.srv
+srv/GetWaypoint.idl
+srv/GetWaypoint.srv
