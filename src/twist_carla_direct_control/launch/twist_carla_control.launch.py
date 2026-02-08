@@ -20,7 +20,7 @@ def generate_launch_description():
     
     role_name_arg = DeclareLaunchArgument(
         'role_name',
-        default_value='ego_vehicle',
+        default_value='hero',
         description='Vehicle role name'
     )
     
