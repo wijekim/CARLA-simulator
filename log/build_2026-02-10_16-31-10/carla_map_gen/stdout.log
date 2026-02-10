@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/carla_map_gen/carla_map_gen.egg-info
+writing ../../build/carla_map_gen/carla_map_gen.egg-info/PKG-INFO
+writing dependency_links to ../../build/carla_map_gen/carla_map_gen.egg-info/dependency_links.txt
+writing entry points to ../../build/carla_map_gen/carla_map_gen.egg-info/entry_points.txt
+writing requirements to ../../build/carla_map_gen/carla_map_gen.egg-info/requires.txt
+writing top-level names to ../../build/carla_map_gen/carla_map_gen.egg-info/top_level.txt
+writing manifest file '../../build/carla_map_gen/carla_map_gen.egg-info/SOURCES.txt'
+reading manifest file '../../build/carla_map_gen/carla_map_gen.egg-info/SOURCES.txt'
+writing manifest file '../../build/carla_map_gen/carla_map_gen.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/airlab/ros2_ws/build/carla_map_gen/build/lib/carla_map_gen
+copying carla_map_gen/__init__.py -> /home/airlab/ros2_ws/build/carla_map_gen/build/lib/carla_map_gen
+copying carla_map_gen/map_node.py -> /home/airlab/ros2_ws/build/carla_map_gen/build/lib/carla_map_gen
+running install
+running install_lib
+creating /home/airlab/ros2_ws/install/carla_map_gen/lib/python3.12/site-packages/carla_map_gen
+copying /home/airlab/ros2_ws/build/carla_map_gen/build/lib/carla_map_gen/__init__.py -> /home/airlab/ros2_ws/install/carla_map_gen/lib/python3.12/site-packages/carla_map_gen
+copying /home/airlab/ros2_ws/build/carla_map_gen/build/lib/carla_map_gen/map_node.py -> /home/airlab/ros2_ws/install/carla_map_gen/lib/python3.12/site-packages/carla_map_gen
+byte-compiling /home/airlab/ros2_ws/install/carla_map_gen/lib/python3.12/site-packages/carla_map_gen/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/airlab/ros2_ws/install/carla_map_gen/lib/python3.12/site-packages/carla_map_gen/map_node.py to map_node.cpython-312.pyc
+running install_data
+creating /home/airlab/ros2_ws/install/carla_map_gen/share/ament_index/resource_index/packages
+copying resource/carla_map_gen -> /home/airlab/ros2_ws/install/carla_map_gen/share/ament_index/resource_index/packages
+copying package.xml -> /home/airlab/ros2_ws/install/carla_map_gen/share/carla_map_gen
+running install_egg_info
+Copying ../../build/carla_map_gen/carla_map_gen.egg-info to /home/airlab/ros2_ws/install/carla_map_gen/lib/python3.12/site-packages/carla_map_gen-0.0.0-py3.12.egg-info
+running install_scripts
+Installing map_node script to /home/airlab/ros2_ws/install/carla_map_gen/lib/carla_map_gen
+writing list of installed files to '/home/airlab/ros2_ws/build/carla_map_gen/install.log'

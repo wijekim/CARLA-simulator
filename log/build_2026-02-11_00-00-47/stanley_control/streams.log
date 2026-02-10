@@ -1,0 +1,27 @@
+[0.408s] Invoking command in '/home/airlab/ros2_ws/stanley_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/airlab/ros2_ws/build/stanley_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/airlab/ros2_ws/install/stanley_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/stanley_control build --build-base /home/airlab/ros2_ws/build/stanley_control/build install --record /home/airlab/ros2_ws/build/stanley_control/install.log --single-version-externally-managed install_data
+[0.573s] running egg_info
+[0.585s] writing ../build/stanley_control/stanley_control.egg-info/PKG-INFO
+[0.585s] writing dependency_links to ../build/stanley_control/stanley_control.egg-info/dependency_links.txt
+[0.585s] writing entry points to ../build/stanley_control/stanley_control.egg-info/entry_points.txt
+[0.585s] writing requirements to ../build/stanley_control/stanley_control.egg-info/requires.txt
+[0.585s] writing top-level names to ../build/stanley_control/stanley_control.egg-info/top_level.txt
+[0.611s] reading manifest file '../build/stanley_control/stanley_control.egg-info/SOURCES.txt'
+[0.611s] writing manifest file '../build/stanley_control/stanley_control.egg-info/SOURCES.txt'
+[0.611s] running build
+[0.611s] running build_py
+[0.611s] copying stanley_control/__init__.py -> /home/airlab/ros2_ws/build/stanley_control/build/lib/stanley_control
+[0.611s] copying stanley_control/stanley_node.py -> /home/airlab/ros2_ws/build/stanley_control/build/lib/stanley_control
+[0.612s] running install
+[0.615s] running install_lib
+[0.627s] copying /home/airlab/ros2_ws/build/stanley_control/build/lib/stanley_control/stanley_node.py -> /home/airlab/ros2_ws/install/stanley_control/lib/python3.12/site-packages/stanley_control
+[0.627s] byte-compiling /home/airlab/ros2_ws/install/stanley_control/lib/python3.12/site-packages/stanley_control/stanley_node.py to stanley_node.cpython-312.pyc
+[0.627s] running install_data
+[0.628s] copying resource/stanley_control -> /home/airlab/ros2_ws/install/stanley_control/share/ament_index/resource_index/packages
+[0.628s] copying package.xml -> /home/airlab/ros2_ws/install/stanley_control/share/stanley_control
+[0.628s] running install_egg_info
+[0.640s] removing '/home/airlab/ros2_ws/install/stanley_control/lib/python3.12/site-packages/stanley_control-0.0.0-py3.12.egg-info' (and everything under it)
+[0.640s] Copying ../build/stanley_control/stanley_control.egg-info to /home/airlab/ros2_ws/install/stanley_control/lib/python3.12/site-packages/stanley_control-0.0.0-py3.12.egg-info
+[0.640s] running install_scripts
+[0.666s] Installing stanley_node script to /home/airlab/ros2_ws/install/stanley_control/lib/stanley_control
+[0.666s] writing list of installed files to '/home/airlab/ros2_ws/build/stanley_control/install.log'
+[0.679s] Invoked command in '/home/airlab/ros2_ws/stanley_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/airlab/ros2_ws/build/stanley_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/airlab/ros2_ws/install/stanley_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/stanley_control build --build-base /home/airlab/ros2_ws/build/stanley_control/build install --record /home/airlab/ros2_ws/build/stanley_control/install.log --single-version-externally-managed install_data

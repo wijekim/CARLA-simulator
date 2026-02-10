@@ -1,0 +1,175 @@
+// generated from rosidl_generator_cpp/resource/idl__builder.hpp.em
+// with input from carla_msgs:srv/DestroyObject.idl
+// generated code does not contain a copyright notice
+
+// IWYU pragma: private, include "carla_msgs/srv/destroy_object.hpp"
+
+
+#ifndef CARLA_MSGS__SRV__DETAIL__DESTROY_OBJECT__BUILDER_HPP_
+#define CARLA_MSGS__SRV__DETAIL__DESTROY_OBJECT__BUILDER_HPP_
+
+#include <algorithm>
+#include <utility>
+
+#include "carla_msgs/srv/detail/destroy_object__struct.hpp"
+#include "rosidl_runtime_cpp/message_initialization.hpp"
+
+
+namespace carla_msgs
+{
+
+namespace srv
+{
+
+namespace builder
+{
+
+class Init_DestroyObject_Request_id
+{
+public:
+  Init_DestroyObject_Request_id()
+  : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
+  {}
+  ::carla_msgs::srv::DestroyObject_Request id(::carla_msgs::srv::DestroyObject_Request::_id_type arg)
+  {
+    msg_.id = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::carla_msgs::srv::DestroyObject_Request msg_;
+};
+
+}  // namespace builder
+
+}  // namespace srv
+
+template<typename MessageType>
+auto build();
+
+template<>
+inline
+auto build<::carla_msgs::srv::DestroyObject_Request>()
+{
+  return carla_msgs::srv::builder::Init_DestroyObject_Request_id();
+}
+
+}  // namespace carla_msgs
+
+
+namespace carla_msgs
+{
+
+namespace srv
+{
+
+namespace builder
+{
+
+class Init_DestroyObject_Response_success
+{
+public:
+  Init_DestroyObject_Response_success()
+  : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
+  {}
+  ::carla_msgs::srv::DestroyObject_Response success(::carla_msgs::srv::DestroyObject_Response::_success_type arg)
+  {
+    msg_.success = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::carla_msgs::srv::DestroyObject_Response msg_;
+};
+
+}  // namespace builder
+
+}  // namespace srv
+
+template<typename MessageType>
+auto build();
+
+template<>
+inline
+auto build<::carla_msgs::srv::DestroyObject_Response>()
+{
+  return carla_msgs::srv::builder::Init_DestroyObject_Response_success();
+}
+
+}  // namespace carla_msgs
+
+
+namespace carla_msgs
+{
+
+namespace srv
+{
+
+namespace builder
+{
+
+class Init_DestroyObject_Event_response
+{
+public:
+  explicit Init_DestroyObject_Event_response(::carla_msgs::srv::DestroyObject_Event & msg)
+  : msg_(msg)
+  {}
+  ::carla_msgs::srv::DestroyObject_Event response(::carla_msgs::srv::DestroyObject_Event::_response_type arg)
+  {
+    msg_.response = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::carla_msgs::srv::DestroyObject_Event msg_;
+};
+
+class Init_DestroyObject_Event_request
+{
+public:
+  explicit Init_DestroyObject_Event_request(::carla_msgs::srv::DestroyObject_Event & msg)
+  : msg_(msg)
+  {}
+  Init_DestroyObject_Event_response request(::carla_msgs::srv::DestroyObject_Event::_request_type arg)
+  {
+    msg_.request = std::move(arg);
+    return Init_DestroyObject_Event_response(msg_);
+  }
+
+private:
+  ::carla_msgs::srv::DestroyObject_Event msg_;
+};
+
+class Init_DestroyObject_Event_info
+{
+public:
+  Init_DestroyObject_Event_info()
+  : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
+  {}
+  Init_DestroyObject_Event_request info(::carla_msgs::srv::DestroyObject_Event::_info_type arg)
+  {
+    msg_.info = std::move(arg);
+    return Init_DestroyObject_Event_request(msg_);
+  }
+
+private:
+  ::carla_msgs::srv::DestroyObject_Event msg_;
+};
+
+}  // namespace builder
+
+}  // namespace srv
+
+template<typename MessageType>
+auto build();
+
+template<>
+inline
+auto build<::carla_msgs::srv::DestroyObject_Event>()
+{
+  return carla_msgs::srv::builder::Init_DestroyObject_Event_info();
+}
+
+}  // namespace carla_msgs
+
+#endif  // CARLA_MSGS__SRV__DETAIL__DESTROY_OBJECT__BUILDER_HPP_

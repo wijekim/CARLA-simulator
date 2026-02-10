@@ -1,0 +1,1 @@
+/home/airlab/ros2_ws/build/stanley_controller/ament_cmake_core/stanley_controllerConfig-version.cmake

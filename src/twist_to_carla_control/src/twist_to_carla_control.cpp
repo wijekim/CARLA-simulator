@@ -8,11 +8,11 @@ public:
   TwistToCarlaControl() : Node("twist_to_carla_control")
   {
     // 파라미터 선언    
-    this->declare_parameter("max_steering_angle", 0.7);  // 최대 조향각 (라디안)
+    this->declare_parameter("max_steering_angle", 0.3);  // 최대 조향각 (라디안)
     this->declare_parameter("max_throttle", 1.0);
     this->declare_parameter("max_brake", 1.0);
     this->declare_parameter("wheelbase", 2.87);  // 차량 축거 (m)
-    this->declare_parameter("max_speed", 10.0);  // 최대 속도 (m/s)
+    this->declare_parameter("max_speed", 2.0);  // 최대 속도 (m/s)
     
     // 파라미터 가져오기
     max_steering_ = this->get_parameter("max_steering_angle").as_double();
@@ -55,7 +55,7 @@ private:
     } else {
       // 정지: Brake 적용
       control_msg.throttle = 0.0;
-      control_msg.brake = 0.5;
+      control_msg.brake = 1.0;
       control_msg.reverse = false;
     }
 
@@ -71,7 +71,7 @@ private:
       double steering_angle = std::atan(wheelbase_ / turning_radius);
       
       // 조향각 정규화 [-1, 1]
-      control_msg.steer = std::clamp(steering_angle / max_steering_, -1.0, 1.0);
+      control_msg.steer = -std::clamp(steering_angle / max_steering_, -1.0, 1.0);
     } else {
       // 제자리 회전
       control_msg.steer = (angular_vel > 0) ? 1.0 : -1.0;
@@ -88,7 +88,7 @@ private:
     // 디버그 정보 출력 (주기적으로)
     static int count = 0;
     if (++count % 20 == 0) {
-      RCLCPP_DEBUG(this->get_logger(), 
+      RCLCPP_INFO(this->get_logger(), 
         "Twist: linear=%.2f, angular=%.2f -> Control: throttle=%.2f, brake=%.2f, steer=%.2f",
         msg->linear.x, msg->angular.z, 
         control_msg.throttle, control_msg.brake, control_msg.steer);

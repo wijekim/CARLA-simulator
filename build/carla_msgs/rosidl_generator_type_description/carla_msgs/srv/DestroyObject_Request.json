@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "carla_msgs/srv/DestroyObject_Request",
+      "fields": [
+        {
+          "name": "id",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "carla_msgs/srv/DestroyObject_Request",
+      "hash_string": "RIHS01_e2402b56740311baedb98877e6cca3274b2e640c8ffb2f36c18b4a0a1772c3f0"
+    }
+  ]
+}

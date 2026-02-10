@@ -1,0 +1,23 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/twist_to_carla_control_node.dir/src/twist_to_carla_control.cpp.o[0m
+[100%] [32m[1mLinking CXX executable twist_to_carla_control_node[0m
+[100%] Built target twist_to_carla_control_node
+-- Install configuration: ""
+-- Installing: /home/airlab/ros2_ws/install/twist_to_carla_control/lib/twist_to_carla_control/twist_to_carla_control_node
+-- Set non-toolchain portion of runtime path of "/home/airlab/ros2_ws/install/twist_to_carla_control/lib/twist_to_carla_control/twist_to_carla_control_node" to ""
+-- Up-to-date: /home/airlab/ros2_ws/install/twist_to_carla_control/share/twist_to_carla_control/launch
+-- Up-to-date: /home/airlab/ros2_ws/install/twist_to_carla_control/share/twist_to_carla_control/launch/twist_to_carla.launch.py
+-- Up-to-date: /home/airlab/ros2_ws/install/twist_to_carla_control/share/ament_index/resource_index/package_run_dependencies/twist_to_carla_control
+-- Up-to-date: /home/airlab/ros2_ws/install/twist_to_carla_control/share/ament_index/resource_index/parent_prefix_path/twist_to_carla_control
+-- Up-to-date: /home/airlab/ros2_ws/install/twist_to_carla_control/share/twist_to_carla_control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/airlab/ros2_ws/install/twist_to_carla_control/share/twist_to_carla_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/airlab/ros2_ws/install/twist_to_carla_control/share/twist_to_carla_control/environment/path.sh
+-- Up-to-date: /home/airlab/ros2_ws/install/twist_to_carla_control/share/twist_to_carla_control/environment/path.dsv
+-- Up-to-date: /home/airlab/ros2_ws/install/twist_to_carla_control/share/twist_to_carla_control/local_setup.bash
+-- Up-to-date: /home/airlab/ros2_ws/install/twist_to_carla_control/share/twist_to_carla_control/local_setup.sh
+-- Up-to-date: /home/airlab/ros2_ws/install/twist_to_carla_control/share/twist_to_carla_control/local_setup.zsh
+-- Up-to-date: /home/airlab/ros2_ws/install/twist_to_carla_control/share/twist_to_carla_control/local_setup.dsv
+-- Installing: /home/airlab/ros2_ws/install/twist_to_carla_control/share/twist_to_carla_control/package.dsv
+-- Up-to-date: /home/airlab/ros2_ws/install/twist_to_carla_control/share/ament_index/resource_index/packages/twist_to_carla_control
+-- Up-to-date: /home/airlab/ros2_ws/install/twist_to_carla_control/share/twist_to_carla_control/cmake/twist_to_carla_controlConfig.cmake
+-- Up-to-date: /home/airlab/ros2_ws/install/twist_to_carla_control/share/twist_to_carla_control/cmake/twist_to_carla_controlConfig-version.cmake
+-- Up-to-date: /home/airlab/ros2_ws/install/twist_to_carla_control/share/twist_to_carla_control/package.xml

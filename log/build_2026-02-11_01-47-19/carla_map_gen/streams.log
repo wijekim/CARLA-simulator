@@ -1,0 +1,27 @@
+[0.397s] Invoking command in '/home/airlab/ros2_ws/src/carla_map_gen': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/airlab/ros2_ws/build/carla_map_gen/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/airlab/ros2_ws/install/carla_map_gen/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/carla_map_gen build --build-base /home/airlab/ros2_ws/build/carla_map_gen/build install --record /home/airlab/ros2_ws/build/carla_map_gen/install.log --single-version-externally-managed install_data
+[0.560s] running egg_info
+[0.571s] writing ../../build/carla_map_gen/carla_map_gen.egg-info/PKG-INFO
+[0.571s] writing dependency_links to ../../build/carla_map_gen/carla_map_gen.egg-info/dependency_links.txt
+[0.571s] writing entry points to ../../build/carla_map_gen/carla_map_gen.egg-info/entry_points.txt
+[0.572s] writing requirements to ../../build/carla_map_gen/carla_map_gen.egg-info/requires.txt
+[0.572s] writing top-level names to ../../build/carla_map_gen/carla_map_gen.egg-info/top_level.txt
+[0.596s] reading manifest file '../../build/carla_map_gen/carla_map_gen.egg-info/SOURCES.txt'
+[0.596s] writing manifest file '../../build/carla_map_gen/carla_map_gen.egg-info/SOURCES.txt'
+[0.596s] running build
+[0.596s] running build_py
+[0.596s] copying carla_map_gen/__init__.py -> /home/airlab/ros2_ws/build/carla_map_gen/build/lib/carla_map_gen
+[0.596s] copying carla_map_gen/map_node.py -> /home/airlab/ros2_ws/build/carla_map_gen/build/lib/carla_map_gen
+[0.596s] running install
+[0.599s] running install_lib
+[0.611s] copying /home/airlab/ros2_ws/build/carla_map_gen/build/lib/carla_map_gen/map_node.py -> /home/airlab/ros2_ws/install/carla_map_gen/lib/python3.12/site-packages/carla_map_gen
+[0.611s] byte-compiling /home/airlab/ros2_ws/install/carla_map_gen/lib/python3.12/site-packages/carla_map_gen/map_node.py to map_node.cpython-312.pyc
+[0.612s] running install_data
+[0.612s] copying resource/carla_map_gen -> /home/airlab/ros2_ws/install/carla_map_gen/share/ament_index/resource_index/packages
+[0.612s] copying package.xml -> /home/airlab/ros2_ws/install/carla_map_gen/share/carla_map_gen
+[0.613s] running install_egg_info
+[0.624s] removing '/home/airlab/ros2_ws/install/carla_map_gen/lib/python3.12/site-packages/carla_map_gen-0.0.0-py3.12.egg-info' (and everything under it)
+[0.624s] Copying ../../build/carla_map_gen/carla_map_gen.egg-info to /home/airlab/ros2_ws/install/carla_map_gen/lib/python3.12/site-packages/carla_map_gen-0.0.0-py3.12.egg-info
+[0.624s] running install_scripts
+[0.647s] Installing map_node script to /home/airlab/ros2_ws/install/carla_map_gen/lib/carla_map_gen
+[0.647s] writing list of installed files to '/home/airlab/ros2_ws/build/carla_map_gen/install.log'
+[0.659s] Invoked command in '/home/airlab/ros2_ws/src/carla_map_gen' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/airlab/ros2_ws/build/carla_map_gen/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/airlab/ros2_ws/install/carla_map_gen/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/carla_map_gen build --build-base /home/airlab/ros2_ws/build/carla_map_gen/build install --record /home/airlab/ros2_ws/build/carla_map_gen/install.log --single-version-externally-managed install_data

@@ -1,0 +1,37 @@
+/home/airlab/carla/carla_venv/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+creating ../../build/carla_path_planner/carla_path_planner.egg-info
+writing ../../build/carla_path_planner/carla_path_planner.egg-info/PKG-INFO
+writing dependency_links to ../../build/carla_path_planner/carla_path_planner.egg-info/dependency_links.txt
+writing entry points to ../../build/carla_path_planner/carla_path_planner.egg-info/entry_points.txt
+writing requirements to ../../build/carla_path_planner/carla_path_planner.egg-info/requires.txt
+writing top-level names to ../../build/carla_path_planner/carla_path_planner.egg-info/top_level.txt
+writing manifest file '../../build/carla_path_planner/carla_path_planner.egg-info/SOURCES.txt'
+reading manifest file '../../build/carla_path_planner/carla_path_planner.egg-info/SOURCES.txt'
+writing manifest file '../../build/carla_path_planner/carla_path_planner.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/airlab/ros2_ws/build/carla_path_planner/build/lib/carla_path_planner
+copying carla_path_planner/__init__.py -> /home/airlab/ros2_ws/build/carla_path_planner/build/lib/carla_path_planner
+copying carla_path_planner/path_planner_node.py -> /home/airlab/ros2_ws/build/carla_path_planner/build/lib/carla_path_planner
+running install
+running install_lib
+creating /home/airlab/ros2_ws/install/carla_path_planner/lib/python3.12/site-packages/carla_path_planner
+copying /home/airlab/ros2_ws/build/carla_path_planner/build/lib/carla_path_planner/__init__.py -> /home/airlab/ros2_ws/install/carla_path_planner/lib/python3.12/site-packages/carla_path_planner
+copying /home/airlab/ros2_ws/build/carla_path_planner/build/lib/carla_path_planner/path_planner_node.py -> /home/airlab/ros2_ws/install/carla_path_planner/lib/python3.12/site-packages/carla_path_planner
+byte-compiling /home/airlab/ros2_ws/install/carla_path_planner/lib/python3.12/site-packages/carla_path_planner/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/airlab/ros2_ws/install/carla_path_planner/lib/python3.12/site-packages/carla_path_planner/path_planner_node.py to path_planner_node.cpython-312.pyc
+running install_data
+creating /home/airlab/ros2_ws/install/carla_path_planner/share/ament_index/resource_index/packages
+copying resource/carla_path_planner -> /home/airlab/ros2_ws/install/carla_path_planner/share/ament_index/resource_index/packages
+copying package.xml -> /home/airlab/ros2_ws/install/carla_path_planner/share/carla_path_planner
+creating /home/airlab/ros2_ws/install/carla_path_planner/share/carla_path_planner/launch
+copying launch/path_planner.launch.py -> /home/airlab/ros2_ws/install/carla_path_planner/share/carla_path_planner/launch
+creating /home/airlab/ros2_ws/install/carla_path_planner/share/carla_path_planner/config
+copying config/params.yaml -> /home/airlab/ros2_ws/install/carla_path_planner/share/carla_path_planner/config
+running install_egg_info
+Copying ../../build/carla_path_planner/carla_path_planner.egg-info to /home/airlab/ros2_ws/install/carla_path_planner/lib/python3.12/site-packages/carla_path_planner-0.1.0-py3.12.egg-info
+running install_scripts
+Installing path_planner script to /home/airlab/ros2_ws/install/carla_path_planner/lib/carla_path_planner
+writing list of installed files to '/home/airlab/ros2_ws/build/carla_path_planner/install.log'

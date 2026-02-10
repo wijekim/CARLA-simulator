@@ -1,0 +1,8 @@
+[01m[K/home/airlab/ros2_ws/src/stanley_controller/src/stanley_controller_node.cpp:[m[K In member function ‘[01m[Kvoid StanleyController::[01;32m[Kstanley_control[m[K()[m[K’:
+[01m[K/home/airlab/ros2_ws/src/stanley_controller/src/stanley_controller_node.cpp:154:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klog_counter[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  154 |         static int [01;35m[Klog_counter[m[K = 0;
+      |                    [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/airlab/ros2_ws/src/stanley_controller/src/stanley_controller_node.cpp:[m[K In member function ‘[01m[Kdouble StanleyController::[01;32m[Kcalculate_velocity[m[K(double)[m[K’:
+[01m[K/home/airlab/ros2_ws/src/stanley_controller/src/stanley_controller_node.cpp:272:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdist_to_goal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  272 |     double calculate_velocity([01;35m[Kdouble dist_to_goal[m[K)
+      |                               [01;35m[K~~~~~~~^~~~~~~~~~~~[m[K

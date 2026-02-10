@@ -1,0 +1,2 @@
+[console_scripts]
+path_planner = carla_path_planner.path_planner_node:main

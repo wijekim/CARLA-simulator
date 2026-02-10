@@ -1,0 +1,742 @@
+// generated from rosidl_generator_c/resource/idl__functions.c.em
+// with input from carla_msgs:srv/DestroyObject.idl
+// generated code does not contain a copyright notice
+#include "carla_msgs/srv/detail/destroy_object__functions.h"
+
+#include <assert.h>
+#include <stdbool.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include "rcutils/allocator.h"
+
+bool
+carla_msgs__srv__DestroyObject_Request__init(carla_msgs__srv__DestroyObject_Request * msg)
+{
+  if (!msg) {
+    return false;
+  }
+  // id
+  return true;
+}
+
+void
+carla_msgs__srv__DestroyObject_Request__fini(carla_msgs__srv__DestroyObject_Request * msg)
+{
+  if (!msg) {
+    return;
+  }
+  // id
+}
+
+bool
+carla_msgs__srv__DestroyObject_Request__are_equal(const carla_msgs__srv__DestroyObject_Request * lhs, const carla_msgs__srv__DestroyObject_Request * rhs)
+{
+  if (!lhs || !rhs) {
+    return false;
+  }
+  // id
+  if (lhs->id != rhs->id) {
+    return false;
+  }
+  return true;
+}
+
+bool
+carla_msgs__srv__DestroyObject_Request__copy(
+  const carla_msgs__srv__DestroyObject_Request * input,
+  carla_msgs__srv__DestroyObject_Request * output)
+{
+  if (!input || !output) {
+    return false;
+  }
+  // id
+  output->id = input->id;
+  return true;
+}
+
+carla_msgs__srv__DestroyObject_Request *
+carla_msgs__srv__DestroyObject_Request__create(void)
+{
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  carla_msgs__srv__DestroyObject_Request * msg = (carla_msgs__srv__DestroyObject_Request *)allocator.allocate(sizeof(carla_msgs__srv__DestroyObject_Request), allocator.state);
+  if (!msg) {
+    return NULL;
+  }
+  memset(msg, 0, sizeof(carla_msgs__srv__DestroyObject_Request));
+  bool success = carla_msgs__srv__DestroyObject_Request__init(msg);
+  if (!success) {
+    allocator.deallocate(msg, allocator.state);
+    return NULL;
+  }
+  return msg;
+}
+
+void
+carla_msgs__srv__DestroyObject_Request__destroy(carla_msgs__srv__DestroyObject_Request * msg)
+{
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  if (msg) {
+    carla_msgs__srv__DestroyObject_Request__fini(msg);
+  }
+  allocator.deallocate(msg, allocator.state);
+}
+
+
+bool
+carla_msgs__srv__DestroyObject_Request__Sequence__init(carla_msgs__srv__DestroyObject_Request__Sequence * array, size_t size)
+{
+  if (!array) {
+    return false;
+  }
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  carla_msgs__srv__DestroyObject_Request * data = NULL;
+
+  if (size) {
+    data = (carla_msgs__srv__DestroyObject_Request *)allocator.zero_allocate(size, sizeof(carla_msgs__srv__DestroyObject_Request), allocator.state);
+    if (!data) {
+      return false;
+    }
+    // initialize all array elements
+    size_t i;
+    for (i = 0; i < size; ++i) {
+      bool success = carla_msgs__srv__DestroyObject_Request__init(&data[i]);
+      if (!success) {
+        break;
+      }
+    }
+    if (i < size) {
+      // if initialization failed finalize the already initialized array elements
+      for (; i > 0; --i) {
+        carla_msgs__srv__DestroyObject_Request__fini(&data[i - 1]);
+      }
+      allocator.deallocate(data, allocator.state);
+      return false;
+    }
+  }
+  array->data = data;
+  array->size = size;
+  array->capacity = size;
+  return true;
+}
+
+void
+carla_msgs__srv__DestroyObject_Request__Sequence__fini(carla_msgs__srv__DestroyObject_Request__Sequence * array)
+{
+  if (!array) {
+    return;
+  }
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+
+  if (array->data) {
+    // ensure that data and capacity values are consistent
+    assert(array->capacity > 0);
+    // finalize all array elements
+    for (size_t i = 0; i < array->capacity; ++i) {
+      carla_msgs__srv__DestroyObject_Request__fini(&array->data[i]);
+    }
+    allocator.deallocate(array->data, allocator.state);
+    array->data = NULL;
+    array->size = 0;
+    array->capacity = 0;
+  } else {
+    // ensure that data, size, and capacity values are consistent
+    assert(0 == array->size);
+    assert(0 == array->capacity);
+  }
+}
+
+carla_msgs__srv__DestroyObject_Request__Sequence *
+carla_msgs__srv__DestroyObject_Request__Sequence__create(size_t size)
+{
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  carla_msgs__srv__DestroyObject_Request__Sequence * array = (carla_msgs__srv__DestroyObject_Request__Sequence *)allocator.allocate(sizeof(carla_msgs__srv__DestroyObject_Request__Sequence), allocator.state);
+  if (!array) {
+    return NULL;
+  }
+  bool success = carla_msgs__srv__DestroyObject_Request__Sequence__init(array, size);
+  if (!success) {
+    allocator.deallocate(array, allocator.state);
+    return NULL;
+  }
+  return array;
+}
+
+void
+carla_msgs__srv__DestroyObject_Request__Sequence__destroy(carla_msgs__srv__DestroyObject_Request__Sequence * array)
+{
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  if (array) {
+    carla_msgs__srv__DestroyObject_Request__Sequence__fini(array);
+  }
+  allocator.deallocate(array, allocator.state);
+}
+
+bool
+carla_msgs__srv__DestroyObject_Request__Sequence__are_equal(const carla_msgs__srv__DestroyObject_Request__Sequence * lhs, const carla_msgs__srv__DestroyObject_Request__Sequence * rhs)
+{
+  if (!lhs || !rhs) {
+    return false;
+  }
+  if (lhs->size != rhs->size) {
+    return false;
+  }
+  for (size_t i = 0; i < lhs->size; ++i) {
+    if (!carla_msgs__srv__DestroyObject_Request__are_equal(&(lhs->data[i]), &(rhs->data[i]))) {
+      return false;
+    }
+  }
+  return true;
+}
+
+bool
+carla_msgs__srv__DestroyObject_Request__Sequence__copy(
+  const carla_msgs__srv__DestroyObject_Request__Sequence * input,
+  carla_msgs__srv__DestroyObject_Request__Sequence * output)
+{
+  if (!input || !output) {
+    return false;
+  }
+  if (output->capacity < input->size) {
+    const size_t allocation_size =
+      input->size * sizeof(carla_msgs__srv__DestroyObject_Request);
+    rcutils_allocator_t allocator = rcutils_get_default_allocator();
+    carla_msgs__srv__DestroyObject_Request * data =
+      (carla_msgs__srv__DestroyObject_Request *)allocator.reallocate(
+      output->data, allocation_size, allocator.state);
+    if (!data) {
+      return false;
+    }
+    // If reallocation succeeded, memory may or may not have been moved
+    // to fulfill the allocation request, invalidating output->data.
+    output->data = data;
+    for (size_t i = output->capacity; i < input->size; ++i) {
+      if (!carla_msgs__srv__DestroyObject_Request__init(&output->data[i])) {
+        // If initialization of any new item fails, roll back
+        // all previously initialized items. Existing items
+        // in output are to be left unmodified.
+        for (; i-- > output->capacity; ) {
+          carla_msgs__srv__DestroyObject_Request__fini(&output->data[i]);
+        }
+        return false;
+      }
+    }
+    output->capacity = input->size;
+  }
+  output->size = input->size;
+  for (size_t i = 0; i < input->size; ++i) {
+    if (!carla_msgs__srv__DestroyObject_Request__copy(
+        &(input->data[i]), &(output->data[i])))
+    {
+      return false;
+    }
+  }
+  return true;
+}
+
+
+bool
+carla_msgs__srv__DestroyObject_Response__init(carla_msgs__srv__DestroyObject_Response * msg)
+{
+  if (!msg) {
+    return false;
+  }
+  // success
+  return true;
+}
+
+void
+carla_msgs__srv__DestroyObject_Response__fini(carla_msgs__srv__DestroyObject_Response * msg)
+{
+  if (!msg) {
+    return;
+  }
+  // success
+}
+
+bool
+carla_msgs__srv__DestroyObject_Response__are_equal(const carla_msgs__srv__DestroyObject_Response * lhs, const carla_msgs__srv__DestroyObject_Response * rhs)
+{
+  if (!lhs || !rhs) {
+    return false;
+  }
+  // success
+  if (lhs->success != rhs->success) {
+    return false;
+  }
+  return true;
+}
+
+bool
+carla_msgs__srv__DestroyObject_Response__copy(
+  const carla_msgs__srv__DestroyObject_Response * input,
+  carla_msgs__srv__DestroyObject_Response * output)
+{
+  if (!input || !output) {
+    return false;
+  }
+  // success
+  output->success = input->success;
+  return true;
+}
+
+carla_msgs__srv__DestroyObject_Response *
+carla_msgs__srv__DestroyObject_Response__create(void)
+{
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  carla_msgs__srv__DestroyObject_Response * msg = (carla_msgs__srv__DestroyObject_Response *)allocator.allocate(sizeof(carla_msgs__srv__DestroyObject_Response), allocator.state);
+  if (!msg) {
+    return NULL;
+  }
+  memset(msg, 0, sizeof(carla_msgs__srv__DestroyObject_Response));
+  bool success = carla_msgs__srv__DestroyObject_Response__init(msg);
+  if (!success) {
+    allocator.deallocate(msg, allocator.state);
+    return NULL;
+  }
+  return msg;
+}
+
+void
+carla_msgs__srv__DestroyObject_Response__destroy(carla_msgs__srv__DestroyObject_Response * msg)
+{
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  if (msg) {
+    carla_msgs__srv__DestroyObject_Response__fini(msg);
+  }
+  allocator.deallocate(msg, allocator.state);
+}
+
+
+bool
+carla_msgs__srv__DestroyObject_Response__Sequence__init(carla_msgs__srv__DestroyObject_Response__Sequence * array, size_t size)
+{
+  if (!array) {
+    return false;
+  }
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  carla_msgs__srv__DestroyObject_Response * data = NULL;
+
+  if (size) {
+    data = (carla_msgs__srv__DestroyObject_Response *)allocator.zero_allocate(size, sizeof(carla_msgs__srv__DestroyObject_Response), allocator.state);
+    if (!data) {
+      return false;
+    }
+    // initialize all array elements
+    size_t i;
+    for (i = 0; i < size; ++i) {
+      bool success = carla_msgs__srv__DestroyObject_Response__init(&data[i]);
+      if (!success) {
+        break;
+      }
+    }
+    if (i < size) {
+      // if initialization failed finalize the already initialized array elements
+      for (; i > 0; --i) {
+        carla_msgs__srv__DestroyObject_Response__fini(&data[i - 1]);
+      }
+      allocator.deallocate(data, allocator.state);
+      return false;
+    }
+  }
+  array->data = data;
+  array->size = size;
+  array->capacity = size;
+  return true;
+}
+
+void
+carla_msgs__srv__DestroyObject_Response__Sequence__fini(carla_msgs__srv__DestroyObject_Response__Sequence * array)
+{
+  if (!array) {
+    return;
+  }
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+
+  if (array->data) {
+    // ensure that data and capacity values are consistent
+    assert(array->capacity > 0);
+    // finalize all array elements
+    for (size_t i = 0; i < array->capacity; ++i) {
+      carla_msgs__srv__DestroyObject_Response__fini(&array->data[i]);
+    }
+    allocator.deallocate(array->data, allocator.state);
+    array->data = NULL;
+    array->size = 0;
+    array->capacity = 0;
+  } else {
+    // ensure that data, size, and capacity values are consistent
+    assert(0 == array->size);
+    assert(0 == array->capacity);
+  }
+}
+
+carla_msgs__srv__DestroyObject_Response__Sequence *
+carla_msgs__srv__DestroyObject_Response__Sequence__create(size_t size)
+{
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  carla_msgs__srv__DestroyObject_Response__Sequence * array = (carla_msgs__srv__DestroyObject_Response__Sequence *)allocator.allocate(sizeof(carla_msgs__srv__DestroyObject_Response__Sequence), allocator.state);
+  if (!array) {
+    return NULL;
+  }
+  bool success = carla_msgs__srv__DestroyObject_Response__Sequence__init(array, size);
+  if (!success) {
+    allocator.deallocate(array, allocator.state);
+    return NULL;
+  }
+  return array;
+}
+
+void
+carla_msgs__srv__DestroyObject_Response__Sequence__destroy(carla_msgs__srv__DestroyObject_Response__Sequence * array)
+{
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  if (array) {
+    carla_msgs__srv__DestroyObject_Response__Sequence__fini(array);
+  }
+  allocator.deallocate(array, allocator.state);
+}
+
+bool
+carla_msgs__srv__DestroyObject_Response__Sequence__are_equal(const carla_msgs__srv__DestroyObject_Response__Sequence * lhs, const carla_msgs__srv__DestroyObject_Response__Sequence * rhs)
+{
+  if (!lhs || !rhs) {
+    return false;
+  }
+  if (lhs->size != rhs->size) {
+    return false;
+  }
+  for (size_t i = 0; i < lhs->size; ++i) {
+    if (!carla_msgs__srv__DestroyObject_Response__are_equal(&(lhs->data[i]), &(rhs->data[i]))) {
+      return false;
+    }
+  }
+  return true;
+}
+
+bool
+carla_msgs__srv__DestroyObject_Response__Sequence__copy(
+  const carla_msgs__srv__DestroyObject_Response__Sequence * input,
+  carla_msgs__srv__DestroyObject_Response__Sequence * output)
+{
+  if (!input || !output) {
+    return false;
+  }
+  if (output->capacity < input->size) {
+    const size_t allocation_size =
+      input->size * sizeof(carla_msgs__srv__DestroyObject_Response);
+    rcutils_allocator_t allocator = rcutils_get_default_allocator();
+    carla_msgs__srv__DestroyObject_Response * data =
+      (carla_msgs__srv__DestroyObject_Response *)allocator.reallocate(
+      output->data, allocation_size, allocator.state);
+    if (!data) {
+      return false;
+    }
+    // If reallocation succeeded, memory may or may not have been moved
+    // to fulfill the allocation request, invalidating output->data.
+    output->data = data;
+    for (size_t i = output->capacity; i < input->size; ++i) {
+      if (!carla_msgs__srv__DestroyObject_Response__init(&output->data[i])) {
+        // If initialization of any new item fails, roll back
+        // all previously initialized items. Existing items
+        // in output are to be left unmodified.
+        for (; i-- > output->capacity; ) {
+          carla_msgs__srv__DestroyObject_Response__fini(&output->data[i]);
+        }
+        return false;
+      }
+    }
+    output->capacity = input->size;
+  }
+  output->size = input->size;
+  for (size_t i = 0; i < input->size; ++i) {
+    if (!carla_msgs__srv__DestroyObject_Response__copy(
+        &(input->data[i]), &(output->data[i])))
+    {
+      return false;
+    }
+  }
+  return true;
+}
+
+
+// Include directives for member types
+// Member `info`
+#include "service_msgs/msg/detail/service_event_info__functions.h"
+// Member `request`
+// Member `response`
+// already included above
+// #include "carla_msgs/srv/detail/destroy_object__functions.h"
+
+bool
+carla_msgs__srv__DestroyObject_Event__init(carla_msgs__srv__DestroyObject_Event * msg)
+{
+  if (!msg) {
+    return false;
+  }
+  // info
+  if (!service_msgs__msg__ServiceEventInfo__init(&msg->info)) {
+    carla_msgs__srv__DestroyObject_Event__fini(msg);
+    return false;
+  }
+  // request
+  if (!carla_msgs__srv__DestroyObject_Request__Sequence__init(&msg->request, 0)) {
+    carla_msgs__srv__DestroyObject_Event__fini(msg);
+    return false;
+  }
+  // response
+  if (!carla_msgs__srv__DestroyObject_Response__Sequence__init(&msg->response, 0)) {
+    carla_msgs__srv__DestroyObject_Event__fini(msg);
+    return false;
+  }
+  return true;
+}
+
+void
+carla_msgs__srv__DestroyObject_Event__fini(carla_msgs__srv__DestroyObject_Event * msg)
+{
+  if (!msg) {
+    return;
+  }
+  // info
+  service_msgs__msg__ServiceEventInfo__fini(&msg->info);
+  // request
+  carla_msgs__srv__DestroyObject_Request__Sequence__fini(&msg->request);
+  // response
+  carla_msgs__srv__DestroyObject_Response__Sequence__fini(&msg->response);
+}
+
+bool
+carla_msgs__srv__DestroyObject_Event__are_equal(const carla_msgs__srv__DestroyObject_Event * lhs, const carla_msgs__srv__DestroyObject_Event * rhs)
+{
+  if (!lhs || !rhs) {
+    return false;
+  }
+  // info
+  if (!service_msgs__msg__ServiceEventInfo__are_equal(
+      &(lhs->info), &(rhs->info)))
+  {
+    return false;
+  }
+  // request
+  if (!carla_msgs__srv__DestroyObject_Request__Sequence__are_equal(
+      &(lhs->request), &(rhs->request)))
+  {
+    return false;
+  }
+  // response
+  if (!carla_msgs__srv__DestroyObject_Response__Sequence__are_equal(
+      &(lhs->response), &(rhs->response)))
+  {
+    return false;
+  }
+  return true;
+}
+
+bool
+carla_msgs__srv__DestroyObject_Event__copy(
+  const carla_msgs__srv__DestroyObject_Event * input,
+  carla_msgs__srv__DestroyObject_Event * output)
+{
+  if (!input || !output) {
+    return false;
+  }
+  // info
+  if (!service_msgs__msg__ServiceEventInfo__copy(
+      &(input->info), &(output->info)))
+  {
+    return false;
+  }
+  // request
+  if (!carla_msgs__srv__DestroyObject_Request__Sequence__copy(
+      &(input->request), &(output->request)))
+  {
+    return false;
+  }
+  // response
+  if (!carla_msgs__srv__DestroyObject_Response__Sequence__copy(
+      &(input->response), &(output->response)))
+  {
+    return false;
+  }
+  return true;
+}
+
+carla_msgs__srv__DestroyObject_Event *
+carla_msgs__srv__DestroyObject_Event__create(void)
+{
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  carla_msgs__srv__DestroyObject_Event * msg = (carla_msgs__srv__DestroyObject_Event *)allocator.allocate(sizeof(carla_msgs__srv__DestroyObject_Event), allocator.state);
+  if (!msg) {
+    return NULL;
+  }
+  memset(msg, 0, sizeof(carla_msgs__srv__DestroyObject_Event));
+  bool success = carla_msgs__srv__DestroyObject_Event__init(msg);
+  if (!success) {
+    allocator.deallocate(msg, allocator.state);
+    return NULL;
+  }
+  return msg;
+}
+
+void
+carla_msgs__srv__DestroyObject_Event__destroy(carla_msgs__srv__DestroyObject_Event * msg)
+{
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  if (msg) {
+    carla_msgs__srv__DestroyObject_Event__fini(msg);
+  }
+  allocator.deallocate(msg, allocator.state);
+}
+
+
+bool
+carla_msgs__srv__DestroyObject_Event__Sequence__init(carla_msgs__srv__DestroyObject_Event__Sequence * array, size_t size)
+{
+  if (!array) {
+    return false;
+  }
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  carla_msgs__srv__DestroyObject_Event * data = NULL;
+
+  if (size) {
+    data = (carla_msgs__srv__DestroyObject_Event *)allocator.zero_allocate(size, sizeof(carla_msgs__srv__DestroyObject_Event), allocator.state);
+    if (!data) {
+      return false;
+    }
+    // initialize all array elements
+    size_t i;
+    for (i = 0; i < size; ++i) {
+      bool success = carla_msgs__srv__DestroyObject_Event__init(&data[i]);
+      if (!success) {
+        break;
+      }
+    }
+    if (i < size) {
+      // if initialization failed finalize the already initialized array elements
+      for (; i > 0; --i) {
+        carla_msgs__srv__DestroyObject_Event__fini(&data[i - 1]);
+      }
+      allocator.deallocate(data, allocator.state);
+      return false;
+    }
+  }
+  array->data = data;
+  array->size = size;
+  array->capacity = size;
+  return true;
+}
+
+void
+carla_msgs__srv__DestroyObject_Event__Sequence__fini(carla_msgs__srv__DestroyObject_Event__Sequence * array)
+{
+  if (!array) {
+    return;
+  }
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+
+  if (array->data) {
+    // ensure that data and capacity values are consistent
+    assert(array->capacity > 0);
+    // finalize all array elements
+    for (size_t i = 0; i < array->capacity; ++i) {
+      carla_msgs__srv__DestroyObject_Event__fini(&array->data[i]);
+    }
+    allocator.deallocate(array->data, allocator.state);
+    array->data = NULL;
+    array->size = 0;
+    array->capacity = 0;
+  } else {
+    // ensure that data, size, and capacity values are consistent
+    assert(0 == array->size);
+    assert(0 == array->capacity);
+  }
+}
+
+carla_msgs__srv__DestroyObject_Event__Sequence *
+carla_msgs__srv__DestroyObject_Event__Sequence__create(size_t size)
+{
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  carla_msgs__srv__DestroyObject_Event__Sequence * array = (carla_msgs__srv__DestroyObject_Event__Sequence *)allocator.allocate(sizeof(carla_msgs__srv__DestroyObject_Event__Sequence), allocator.state);
+  if (!array) {
+    return NULL;
+  }
+  bool success = carla_msgs__srv__DestroyObject_Event__Sequence__init(array, size);
+  if (!success) {
+    allocator.deallocate(array, allocator.state);
+    return NULL;
+  }
+  return array;
+}
+
+void
+carla_msgs__srv__DestroyObject_Event__Sequence__destroy(carla_msgs__srv__DestroyObject_Event__Sequence * array)
+{
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  if (array) {
+    carla_msgs__srv__DestroyObject_Event__Sequence__fini(array);
+  }
+  allocator.deallocate(array, allocator.state);
+}
+
+bool
+carla_msgs__srv__DestroyObject_Event__Sequence__are_equal(const carla_msgs__srv__DestroyObject_Event__Sequence * lhs, const carla_msgs__srv__DestroyObject_Event__Sequence * rhs)
+{
+  if (!lhs || !rhs) {
+    return false;
+  }
+  if (lhs->size != rhs->size) {
+    return false;
+  }
+  for (size_t i = 0; i < lhs->size; ++i) {
+    if (!carla_msgs__srv__DestroyObject_Event__are_equal(&(lhs->data[i]), &(rhs->data[i]))) {
+      return false;
+    }
+  }
+  return true;
+}
+
+bool
+carla_msgs__srv__DestroyObject_Event__Sequence__copy(
+  const carla_msgs__srv__DestroyObject_Event__Sequence * input,
+  carla_msgs__srv__DestroyObject_Event__Sequence * output)
+{
+  if (!input || !output) {
+    return false;
+  }
+  if (output->capacity < input->size) {
+    const size_t allocation_size =
+      input->size * sizeof(carla_msgs__srv__DestroyObject_Event);
+    rcutils_allocator_t allocator = rcutils_get_default_allocator();
+    carla_msgs__srv__DestroyObject_Event * data =
+      (carla_msgs__srv__DestroyObject_Event *)allocator.reallocate(
+      output->data, allocation_size, allocator.state);
+    if (!data) {
+      return false;
+    }
+    // If reallocation succeeded, memory may or may not have been moved
+    // to fulfill the allocation request, invalidating output->data.
+    output->data = data;
+    for (size_t i = output->capacity; i < input->size; ++i) {
+      if (!carla_msgs__srv__DestroyObject_Event__init(&output->data[i])) {
+        // If initialization of any new item fails, roll back
+        // all previously initialized items. Existing items
+        // in output are to be left unmodified.
+        for (; i-- > output->capacity; ) {
+          carla_msgs__srv__DestroyObject_Event__fini(&output->data[i]);
+        }
+        return false;
+      }
+    }
+    output->capacity = input->size;
+  }
+  output->size = input->size;
+  for (size_t i = 0; i < input->size; ++i) {
+    if (!carla_msgs__srv__DestroyObject_Event__copy(
+        &(input->data[i]), &(output->data[i])))
+    {
+      return false;
+    }
+  }
+  return true;
+}

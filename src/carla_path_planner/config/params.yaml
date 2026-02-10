@@ -1,0 +1,16 @@
+# CARLA Path Planner Configuration
+
+carla_path_planner:
+  ros__parameters:
+    # CARLA Connection Settings
+    carla_host: "localhost"
+    carla_port: 2000
+    carla_timeout: 10.0
+    
+    # Path Planning Settings
+    start_spawn_id: 0
+    goal_spawn_id: 50
+    waypoint_ids: ""  # Example: "10,20,30" for intermediate waypoints
+    
+    # Path Resolution (meters between waypoints)
+    path_resolution: 1.0

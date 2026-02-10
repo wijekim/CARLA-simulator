@@ -1,0 +1,2 @@
+[console_scripts]
+map_node = carla_map_gen.map_node:main

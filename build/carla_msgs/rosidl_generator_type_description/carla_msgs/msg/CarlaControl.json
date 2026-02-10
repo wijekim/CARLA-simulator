@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "carla_msgs/msg/CarlaControl",
+      "fields": [
+        {
+          "name": "command",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "carla_msgs/msg/CarlaControl",
+      "hash_string": "RIHS01_7053e4e9ec21223b8f3a67944cc19fac0e419791a87e59438a56ba9efce2a9ac"
+    }
+  ]
+}

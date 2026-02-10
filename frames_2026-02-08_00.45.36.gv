@@ -1,0 +1,10 @@
+digraph G {
+"hero" -> "rgb"[label=" Broadcaster: default_authority\nAverage rate: 20.14\nBuffer length: 7.15\nMost recent transform: 2472.601989\nOldest transform: 2465.451989\n"];
+"odom" -> "hero"[label=" Broadcaster: default_authority\nAverage rate: 20.141\nBuffer length: 7.1\nMost recent transform: 2472.601989\nOldest transform: 2465.501989\n"];
+"hero" -> "imu"[label=" Broadcaster: default_authority\nAverage rate: 20.141\nBuffer length: 7.1\nMost recent transform: 2472.601989\nOldest transform: 2465.501989\n"];
+"hero" -> "lidar"[label=" Broadcaster: default_authority\nAverage rate: 20.142\nBuffer length: 7.05\nMost recent transform: 2472.601989\nOldest transform: 2465.551989\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1770479136.6595242"[ shape=plaintext ] ;
+}->"odom";
+}

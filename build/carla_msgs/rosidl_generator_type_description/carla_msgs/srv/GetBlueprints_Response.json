@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "carla_msgs/srv/GetBlueprints_Response",
+      "fields": [
+        {
+          "name": "blueprints",
+          "type": {
+            "type_id": 161,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "carla_msgs/srv/GetBlueprints_Response",
+      "hash_string": "RIHS01_f286d72fb246a8d66fd8a572ac31be2851f8c630a2f0deb62f5de9007424c729"
+    }
+  ]
+}

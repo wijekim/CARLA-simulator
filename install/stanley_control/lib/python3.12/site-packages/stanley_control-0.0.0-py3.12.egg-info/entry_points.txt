@@ -1,0 +1,2 @@
+[console_scripts]
+stanley_node = stanley_control.stanley_node:main

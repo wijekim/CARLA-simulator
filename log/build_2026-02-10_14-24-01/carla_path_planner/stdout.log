@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/carla_path_planner/carla_path_planner.egg-info/PKG-INFO
+writing dependency_links to ../../build/carla_path_planner/carla_path_planner.egg-info/dependency_links.txt
+writing entry points to ../../build/carla_path_planner/carla_path_planner.egg-info/entry_points.txt
+writing requirements to ../../build/carla_path_planner/carla_path_planner.egg-info/requires.txt
+writing top-level names to ../../build/carla_path_planner/carla_path_planner.egg-info/top_level.txt
+reading manifest file '../../build/carla_path_planner/carla_path_planner.egg-info/SOURCES.txt'
+writing manifest file '../../build/carla_path_planner/carla_path_planner.egg-info/SOURCES.txt'
+running build
+running build_py
+copying carla_path_planner/__init__.py -> /home/airlab/ros2_ws/build/carla_path_planner/build/lib/carla_path_planner
+copying carla_path_planner/path_planner_node.py -> /home/airlab/ros2_ws/build/carla_path_planner/build/lib/carla_path_planner
+running install
+running install_lib
+copying /home/airlab/ros2_ws/build/carla_path_planner/build/lib/carla_path_planner/__init__.py -> /home/airlab/ros2_ws/install/carla_path_planner/lib/python3.12/site-packages/carla_path_planner
+copying /home/airlab/ros2_ws/build/carla_path_planner/build/lib/carla_path_planner/path_planner_node.py -> /home/airlab/ros2_ws/install/carla_path_planner/lib/python3.12/site-packages/carla_path_planner
+byte-compiling /home/airlab/ros2_ws/install/carla_path_planner/lib/python3.12/site-packages/carla_path_planner/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/airlab/ros2_ws/install/carla_path_planner/lib/python3.12/site-packages/carla_path_planner/path_planner_node.py to path_planner_node.cpython-312.pyc
+running install_data
+copying package.xml -> /home/airlab/ros2_ws/install/carla_path_planner/share/carla_path_planner
+copying launch/path_planner.launch.py -> /home/airlab/ros2_ws/install/carla_path_planner/share/carla_path_planner/launch
+copying config/params.yaml -> /home/airlab/ros2_ws/install/carla_path_planner/share/carla_path_planner/config
+running install_egg_info
+removing '/home/airlab/ros2_ws/install/carla_path_planner/lib/python3.12/site-packages/carla_path_planner-0.1.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/carla_path_planner/carla_path_planner.egg-info to /home/airlab/ros2_ws/install/carla_path_planner/lib/python3.12/site-packages/carla_path_planner-0.1.0-py3.12.egg-info
+running install_scripts
+Installing path_planner script to /home/airlab/ros2_ws/install/carla_path_planner/lib/carla_path_planner
+writing list of installed files to '/home/airlab/ros2_ws/build/carla_path_planner/install.log'

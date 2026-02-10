@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/carla_map_gen/carla_map_gen.egg-info/PKG-INFO
+../../build/carla_map_gen/carla_map_gen.egg-info/SOURCES.txt
+../../build/carla_map_gen/carla_map_gen.egg-info/dependency_links.txt
+../../build/carla_map_gen/carla_map_gen.egg-info/entry_points.txt
+../../build/carla_map_gen/carla_map_gen.egg-info/requires.txt
+../../build/carla_map_gen/carla_map_gen.egg-info/top_level.txt
+../../build/carla_map_gen/carla_map_gen.egg-info/zip-safe
+carla_map_gen/__init__.py
+carla_map_gen/map_node.py
+resource/carla_map_gen
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
