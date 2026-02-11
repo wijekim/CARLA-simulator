@@ -1,0 +1,2 @@
+[console_scripts]
+path_visualizer = carla_path_visualizer.path_visualizer_node:main

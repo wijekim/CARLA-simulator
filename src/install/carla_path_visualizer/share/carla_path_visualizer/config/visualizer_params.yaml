@@ -1,0 +1,21 @@
+# CARLA Path Visualizer Configuration
+
+carla_path_visualizer:
+  ros__parameters:
+    # CARLA Connection
+    carla_host: "localhost"
+    carla_port: 2000
+    
+    # ROS2 Topics
+    path_topic: "/plan"
+    odom_topic: "/odom"
+    
+    # Topic Type Selection
+    # true: subscribe to nav_msgs/Odometry
+    # false: subscribe to geometry_msgs/PoseStamped
+    use_odometry: true
+    
+    # Robot Visualization Settings
+    robot_size: 2.0  # Size of robot marker in meters
+    show_trajectory: true  # Show robot trajectory path
+    trajectory_max_points: 1000  # Maximum number of trajectory points to keep
